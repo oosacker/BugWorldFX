@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_SwsncLi-Eem7M4w2QGGPcw">
+  <modelElement href="BugWorldNat.uml#_SvS5QLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THZ3QLi-Eem7M4w2QGGPcw" targetItem="_THglAri-Eem7M4w2QGGPcw" sourceItem="_THZQMLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THaeULi-Eem7M4w2QGGPcw" targetItem="_THhMLri-Eem7M4w2QGGPcw" sourceItem="_THZ3Qbi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THaeUri-Eem7M4w2QGGPcw" targetItem="_THhMNLi-Eem7M4w2QGGPcw" sourceItem="_THaeUbi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THaeVLi-Eem7M4w2QGGPcw" targetItem="_THhMOri-Eem7M4w2QGGPcw" sourceItem="_THaeU7i-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THaeVri-Eem7M4w2QGGPcw" targetItem="_THhMQLi-Eem7M4w2QGGPcw" sourceItem="_THaeVbi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THbFYbi-Eem7M4w2QGGPcw" targetItem="_THhMRbi-Eem7M4w2QGGPcw" sourceItem="_THbFYLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THbFY7i-Eem7M4w2QGGPcw" targetItem="_THhMSri-Eem7M4w2QGGPcw" sourceItem="_THbFYri-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THbFZbi-Eem7M4w2QGGPcw" targetItem="_THhMT7i-Eem7M4w2QGGPcw" sourceItem="_THbFZLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THbscLi-Eem7M4w2QGGPcw" targetItem="_THhMWri-Eem7M4w2QGGPcw" sourceItem="_THbFZri-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THbscri-Eem7M4w2QGGPcw" targetItem="_THhMXbi-Eem7M4w2QGGPcw" sourceItem="_THbscbi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THbsdLi-Eem7M4w2QGGPcw" targetItem="_THhMYLi-Eem7M4w2QGGPcw" sourceItem="_THbsc7i-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THcTgbi-Eem7M4w2QGGPcw" targetItem="_THhMcLi-Eem7M4w2QGGPcw" sourceItem="_THcTgLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THcTg7i-Eem7M4w2QGGPcw" targetItem="_THhMeLi-Eem7M4w2QGGPcw" sourceItem="_THcTgri-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THcThbi-Eem7M4w2QGGPcw" targetItem="_THhMg7i-Eem7M4w2QGGPcw" sourceItem="_THcThLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THc6kbi-Eem7M4w2QGGPcw" targetItem="_THhMibi-Eem7M4w2QGGPcw" sourceItem="_THc6kLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THeIsLi-Eem7M4w2QGGPcw" source="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCXmQbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_THevwLi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCYNULi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THevwbi-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_THevwri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCXmQri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THevw7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THevxLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THevxbi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="stone" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB-ksbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THevxri-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THevx7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THevyLi-Eem7M4w2QGGPcw" source="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCYNUbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_THevybi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCYNU7i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THevyri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_THevy7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCYNUri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THevzLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THevzbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THevzri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="bug" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB-ktLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THevz7i-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THev0Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THfW0Li-Eem7M4w2QGGPcw" source="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCYNVLi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_THfW0bi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCY0YLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THfW0ri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_THfW07i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCYNVbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THfW1Li-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THfW1bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THfW1ri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="plant" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB_Lwbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THfW17i-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THfW2Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THfW2bi-Eem7M4w2QGGPcw" sourceAnchor="0.0,15.0" targetAnchor="368.0,207.0" target="_THzf4Li-Eem7M4w2QGGPcw" source="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCY0Ybi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_THfW2ri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCZbcLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THfW27i-Eem7M4w2QGGPcw" text="">
+      <visualProperties xmi:id="_Tb_AILi-Eem7M4w2QGGPcw" position="20.825623343319677,-0.5889626241829831"/>
+    </nameVisual>
+    <sourceRole xmi:id="_THfW3Li-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCY0Yri-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_Tb-ZELi-Eem7M4w2QGGPcw" position="-62.077848702439006,-17.761607950173925"/>
+      <visibility xmi:id="_THfW3bi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THfW3ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THfW37i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="myBug" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB_LxLi-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_Tb_AIbi-Eem7M4w2QGGPcw" position="93.6435334663567,-17.80886640399055"/>
+      <visibility xmi:id="_THfW4Li-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THfW4bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THf94Li-Eem7M4w2QGGPcw" sourceAnchor="218.0,0.0" targetAnchor="0.0,68.0" target="_TIaj4Li-Eem7M4w2QGGPcw" source="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCZbcbi-Eem7M4w2QGGPcw"/>
+    <bendpoints xmi:id="_Tb780Li-Eem7M4w2QGGPcw" sourceY="-103" targetX="-313"/>
+    <stereotypes xmi:id="_THf94bi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCZbc7i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THf94ri-Eem7M4w2QGGPcw" text="">
+      <visualProperties xmi:id="_TcAOQLi-Eem7M4w2QGGPcw" position="-27.935255051450497,-46.478452212856666"/>
+    </nameVisual>
+    <sourceRole xmi:id="_THf947i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCZbcri-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_Tb_nMLi-Eem7M4w2QGGPcw" position="-17.8660285875751,-76.10859441828755"/>
+      <visibility xmi:id="_THf95Li-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THf95bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THf95ri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="myPlant" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB_y0bi-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcAOQbi-Eem7M4w2QGGPcw" position="-357.7167201019806,-162.65048165027048"/>
+      <visibility xmi:id="_THf957i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THf96Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THf96bi-Eem7M4w2QGGPcw" sourceAnchor="15.0,0.0" targetAnchor="180.0,63.0" target="_TIYHoLi-Eem7M4w2QGGPcw" source="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCZbdLi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_THf96ri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCaCgLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THf967i-Eem7M4w2QGGPcw" text="">
+      <visualProperties xmi:id="_TcBcYLi-Eem7M4w2QGGPcw" position="-29.39244711204958,-64.86070109863097"/>
+    </nameVisual>
+    <sourceRole xmi:id="_THf97Li-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCZbdbi-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcA1ULi-Eem7M4w2QGGPcw" position="-18.346158868284746,-79.58845358303712"/>
+      <visibility xmi:id="_THf97bi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THf97ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THf977i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="myObs" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB_y07i-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcBcYbi-Eem7M4w2QGGPcw" position="-41.92302861282249,-96.69717165025725"/>
+      <visibility xmi:id="_THf98Li-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THf98bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THgk8Li-Eem7M4w2QGGPcw" source="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCaCgbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_THgk8bi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCapkLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THgk8ri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_THgk87i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCaCgri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THgk9Li-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THgk9bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THgk9ri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="items" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TCAZ4bi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THgk97i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THgk-Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THgk-bi-Eem7M4w2QGGPcw" source="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCapkbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_THgk-ri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCapk7i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THgk-7i-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_THgk_Li-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCapkri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THgk_bi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THgk_ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THgk_7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="myscene" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TCBA87i-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THglALi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THglAbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THrkEbi-Eem7M4w2QGGPcw" targetItem="_THxDoLi-Eem7M4w2QGGPcw" sourceItem="_THrkELi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_THsLILi-Eem7M4w2QGGPcw" sourceAnchor="184.0,0.0" targetAnchor="204.0,185.0" superClass="_THxDoLi-Eem7M4w2QGGPcw" subClass="_THzf4Li-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TA7b0Li-Eem7M4w2QGGPcw"/>
+    <bendpoints xmi:id="_Tb8j4Li-Eem7M4w2QGGPcw" sourceY="-27" targetX="-570" targetY="28"/>
+    <bendpoints xmi:id="_Tb8j4bi-Eem7M4w2QGGPcw" sourceX="570" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_THsLIbi-Eem7M4w2QGGPcw" sourceAnchor="185.0,0.0" targetAnchor="204.0,185.0" superClass="_THxDoLi-Eem7M4w2QGGPcw" subClass="_TIYHoLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TBVEcLi-Eem7M4w2QGGPcw"/>
+    <bendpoints xmi:id="_Tb9yAri-Eem7M4w2QGGPcw" sourceY="-101" targetX="30" targetY="28"/>
+    <bendpoints xmi:id="_Tb9yA7i-Eem7M4w2QGGPcw" sourceX="-30" sourceY="-101" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_THsLIri-Eem7M4w2QGGPcw" sourceAnchor="185.0,0.0" targetAnchor="204.0,185.0" superClass="_THxDoLi-Eem7M4w2QGGPcw" subClass="_TIaj4Li-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TBVrgLi-Eem7M4w2QGGPcw"/>
+    <bendpoints xmi:id="_Tb9yBLi-Eem7M4w2QGGPcw" sourceY="-48" targetX="726" targetY="28"/>
+    <bendpoints xmi:id="_Tb9yBbi-Eem7M4w2QGGPcw" sourceX="-726" sourceY="-48" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THsyMbi-Eem7M4w2QGGPcw" targetItem="_THxDuri-Eem7M4w2QGGPcw" sourceItem="_THsyMLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THuAUbi-Eem7M4w2QGGPcw" targetItem="_THzf4Li-Eem7M4w2QGGPcw" sourceItem="_THuAULi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_THunYbi-Eem7M4w2QGGPcw" targetItem="_THzgDLi-Eem7M4w2QGGPcw" sourceItem="_THunYLi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THwckLi-Eem7M4w2QGGPcw" source="_THxDoLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCW_Mbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_THwckbi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCXmQLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THwckri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_THwck7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCW_Mri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THwclLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THwclbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THwclri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="icon" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB8vgbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THwcl7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THwcmLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TH4YYLi-Eem7M4w2QGGPcw" sourceAnchor="270.0,163.0" targetAnchor="0.0,299.0" target="_THglAri-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCPDYLi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TICJY7i-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCPqcLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TICJYLi-Eem7M4w2QGGPcw" text="">
+      <visualProperties xmi:id="_TcCqgLi-Eem7M4w2QGGPcw" position="231.7850951325786,-19.856844641969474"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TICJYbi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCPDYbi-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcCDcLi-Eem7M4w2QGGPcw" position="43.28689262238518,-37.50560576633001"/>
+      <visibility xmi:id="_TIFzwbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIFzwLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TICJYri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="w" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB1awLi-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcCqgbi-Eem7M4w2QGGPcw" position="449.44894903860177,-37.82058865526767"/>
+      <visibility xmi:id="_TIFzw7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIFzwri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIA7QLi-Eem7M4w2QGGPcw" sourceAnchor="0.0,310.0" targetAnchor="184.0,277.0" target="_THzf4Li-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCPqcbi-Eem7M4w2QGGPcw"/>
+    <bendpoints xmi:id="_Tb9K8Li-Eem7M4w2QGGPcw" sourceX="-256" targetY="361"/>
+    <stereotypes xmi:id="_TICwcLi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCQRgLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TICJZLi-Eem7M4w2QGGPcw" text="">
+      <visualProperties xmi:id="_TcEfsLi-Eem7M4w2QGGPcw" position="108.01220372301327,-0.8382404959284031"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TICJZbi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCPqcri-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcD4oLi-Eem7M4w2QGGPcw" position="-62.08304489447005,-16.845823527375273"/>
+      <visibility xmi:id="_TIGa0bi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIGa0Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TICJZri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="b" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB2B0Li-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcFGwLi-Eem7M4w2QGGPcw" position="30.66826435686687,344.4754016044543"/>
+      <visibility xmi:id="_TIGa07i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIGa0ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIA7Qbi-Eem7M4w2QGGPcw" sourceAnchor="174.0,0.0" targetAnchor="15.0,63.0" target="_TIYHoLi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCQRgbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TICwdLi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCQ4kLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TICwcbi-Eem7M4w2QGGPcw" text="">
+      <visualProperties xmi:id="_TcGU4Li-Eem7M4w2QGGPcw" position="-29.404093034483594,35.0703782586603"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TICwcri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCQRgri-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcFt0Li-Eem7M4w2QGGPcw" position="-19.160953967800623,-79.27531367870827"/>
+      <visibility xmi:id="_TIGa1bi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIGa1Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TICwc7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="o" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB2B0bi-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcGU4bi-Eem7M4w2QGGPcw" position="-24.01273188655651,103.3505444371417"/>
+      <visibility xmi:id="_TIGa17i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIGa1ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIBiULi-Eem7M4w2QGGPcw" sourceAnchor="270.0,478.0" targetAnchor="185.0,116.0" target="_TIaj4Li-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCQ4kbi-Eem7M4w2QGGPcw"/>
+    <bendpoints xmi:id="_Tb9K8bi-Eem7M4w2QGGPcw" sourceX="770" targetY="669"/>
+    <stereotypes xmi:id="_TICweLi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCQ4k7i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TICwdbi-Eem7M4w2QGGPcw" text="">
+      <visualProperties xmi:id="_TcIKELi-Eem7M4w2QGGPcw" position="-723.1741715327412,-19.42062899847656"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TICwdri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCQ4kri-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcHjALi-Eem7M4w2QGGPcw" position="41.02367496509779,-38.664928031624186"/>
+      <visibility xmi:id="_TIGa2bi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIGa2Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TICwd7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="p" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB2B0ri-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcIxILi-Eem7M4w2QGGPcw" position="-687.5844089892933,629.908408561481"/>
+      <visibility xmi:id="_TIGa27i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIGa2ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIBiUbi-Eem7M4w2QGGPcw" sourceAnchor="0.0,340.0" targetAnchor="0.0,93.0" target="_THxDoLi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCQ4lLi-Eem7M4w2QGGPcw"/>
+    <bendpoints xmi:id="_Tb9yALi-Eem7M4w2QGGPcw" sourceX="-455" targetX="-565" targetY="815"/>
+    <bendpoints xmi:id="_Tb9yAbi-Eem7M4w2QGGPcw" sourceX="-455" sourceY="-815" targetX="-565"/>
+    <stereotypes xmi:id="_TICwfLi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCRfoLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TICwebi-Eem7M4w2QGGPcw" text="">
+      <visualProperties xmi:id="_TcJYMbi-Eem7M4w2QGGPcw" position="363.6576588482258,407.2573070714935"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TICweri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCQ4lbi-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcJYMLi-Eem7M4w2QGGPcw" position="-62.163476484110674,-16.68102274257285"/>
+      <visibility xmi:id="_TIGa3bi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIGa3Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TICwe7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="items" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB2o4Li-Eem7M4w2QGGPcw"/>
+      <visualProperties xmi:id="_TcJ_QLi-Eem7M4w2QGGPcw" position="-235.55601699852792,797.5997654339756"/>
+      <visibility xmi:id="_TIGa37i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIGa3ri-Eem7M4w2QGGPcw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TICwfbi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCTU0bi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIHB4Li-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCTU07i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIGa4Li-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIGa4bi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCTU0ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIHB6ri-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIHB6bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIGa4ri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="scene" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB33Abi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIHo8bi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIHo8Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TICwfri-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCT74bi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIHB5Li-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCUi8Li-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIHB4bi-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIHB4ri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCT74ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIHo87i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIHo8ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIHB47i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="myImg" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB4eELi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIHo9bi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIHo9Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIDXgLi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCWYJLi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIHB6Li-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCW_MLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIHB5bi-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIHB5ri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCWYJbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIHo97i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIHo9ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIHB57i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="img" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB7hYLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIHo-bi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIHo-Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_TIDXgri-Eem7M4w2QGGPcw" targetItem="_TINI_ri-Eem7M4w2QGGPcw" sourceItem="_TIDXgbi-Eem7M4w2QGGPcw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TII3ELi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCRfobi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TII3Ebi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCSGsLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TII3Eri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TII3E7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCRfori-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TII3FLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TII3Fbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TII3Fri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="bugColor" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB2o4ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TII3F7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TII3GLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TII3Gbi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCSGsbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TII3Gri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCSGs7i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TII3G7i-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TII3HLi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCSGsri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TII3Hbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TII3Hri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TII3H7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="obsColor" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB3P8Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TII3ILi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TII3Ibi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIJeILi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCSGtLi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIJeIbi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCStwLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIJeIri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIJeI7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCSGtbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIJeJLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIJeJbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIJeJri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="plantColor" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB3P8ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIJeJ7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIJeKLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIJeKbi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCStwbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIJeKri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCTU0Li-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIJeK7i-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIJeLLi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCStwri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIJeLbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIJeLri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIJeL7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB33ALi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIJeMLi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIJeMbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIJeMri-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCTU1Li-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIJeM7i-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCT74Li-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIJeNLi-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIJeNbi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCTU1bi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIJeNri-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIJeN7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIJeOLi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="root" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB33Ari-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIJeObi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIJeOri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIKFMLi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCUi8bi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIKFMbi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCUi87i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIKFMri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIKFM7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCUi8ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIKFNLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIKFNbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIKFNri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="bgi" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB4eEbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIKFN7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIKFOLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIKFObi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCUi9Li-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIKFOri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCVKALi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIKFO7i-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIKFPLi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCUi9bi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIKFPbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIKFPri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIKFP7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="bg" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB4eEri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIKFQLi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIKFQbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIKsQLi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCVKAbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIKsQbi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCVxELi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIKsQri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIKsQ7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCVKAri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIKsRLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIKsRbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIKsRri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="box" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB5FILi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIKsR7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIKsSLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIKsSbi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCVxEbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIKsSri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCWYILi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIKsS7i-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIKsTLi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCVxEri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIKsTbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIKsTri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIKsT7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="hb" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB5FIbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIKsULi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIKsUbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TILTULi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCWYIbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TILTUbi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCWYI7i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TILTUri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TILTU7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCWYIri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TILTVLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TILTVbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TILTVri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="bugBtn" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TB5sMLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TILTV7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TILTWLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TILTWbi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCaplLi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TILTWri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCbQoLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TILTW7i-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TILTXLi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCaplbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TILTXbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TILTXri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TILTX7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="plBtn" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TCJj0Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TILTYLi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TILTYbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIL6YLi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCbQobi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIL6Ybi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCb3sLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIL6Yri-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIL6Y7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCbQori-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIL6ZLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIL6Zbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIL6Zri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="obsBtn" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TCJj0ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIL6Z7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIL6aLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIL6abi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCb3sbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TIL6ari-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCcewLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIL6a7i-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TIL6bLi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCb3sri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIL6bbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIL6bri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIL6b7i-Eem7M4w2QGGPcw" aggregationKind="NONE" name="grPlBtn" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TCKK4Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIL6cLi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIL6cbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIMhcLi-Eem7M4w2QGGPcw" source="_TINIiLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCcewbi-Eem7M4w2QGGPcw"/>
+    <stereotypes xmi:id="_TINIgLi-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TCcew7i-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TINIgbi-Eem7M4w2QGGPcw" text=""/>
+    <sourceRole xmi:id="_TINIgri-Eem7M4w2QGGPcw" aggregationKind="NONE" name="">
+      <modelElement href="BugWorldNat.uml#_TCcewri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIg7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TINIhLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TINIhbi-Eem7M4w2QGGPcw" aggregationKind="NONE" name="grBugBtn" navigable="true">
+      <modelElement href="BugWorldNat.uml#_TCKK4ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIhri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIh7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THZQMLi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THZ3QLi-Eem7M4w2QGGPcw" text="&#xD;&#xA;@author Natsuki Hasegawa &lt;haseganats@myvuw.ac.nz>&#xD;&#xA;@version 1.0&#xD;&#xA;@since 1.0&#xD;&#xA; *" item="_THglAri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCLZAri-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THZ3Qbi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THaeULi-Eem7M4w2QGGPcw" text="Add specified number of bugs to the world.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param bugNum&#x9;Number of Bugs to add." item="_THhMLri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAELi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THaeUbi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THaeUri-Eem7M4w2QGGPcw" text="Add specified number of Plants to the world.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param plNum&#x9;Number of Plants to add." item="_THhMNLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAEbi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THaeU7i-Eem7M4w2QGGPcw" sourceConnectionVisual="_THaeVLi-Eem7M4w2QGGPcw" text="Add specified number of Obstacles to the world.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param obsNum&#x9;Number of Obstacles to add." item="_THhMOri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAEri-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THaeVbi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THaeVri-Eem7M4w2QGGPcw" text="Generate a random integer in x direction which is inside the scene.&#xD;&#xA;&#xD;&#xA;@return &#x9;Returns the randomly generated integer x." item="_THhMQLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAE7i-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THbFYLi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THbFYbi-Eem7M4w2QGGPcw" text="Generate a random integer in y direction which is inside the scene.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return &#x9;Returns the randomly generated integer y." item="_THhMRbi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAFLi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THbFYri-Eem7M4w2QGGPcw" sourceConnectionVisual="_THbFY7i-Eem7M4w2QGGPcw" text="Generate a random integer size between 1 and 10.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return &#x9;Returns the randomly generated size." item="_THhMSri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAFbi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THbFZLi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THbFZbi-Eem7M4w2QGGPcw" text="&#xD;&#xA;&#x9; * Checks if current y x and y is a valid point.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param x&#x9;x coordinate to test.&#xD;&#xA;&#x9; * @param y&#x9;y coordinate to test.&#xD;&#xA;&#x9; * @return&#x9;Returns true if it is a valid point, false if not." item="_THhMT7i-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAF7i-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THbFZri-Eem7M4w2QGGPcw" sourceConnectionVisual="_THbscLi-Eem7M4w2QGGPcw" text="Increase the size of all Plants." item="_THhMWri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAGbi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THbscbi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THbscri-Eem7M4w2QGGPcw" text="Increase the size of all Bugs." item="_THhMXbi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAGri-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THbsc7i-Eem7M4w2QGGPcw" sourceConnectionVisual="_THbsdLi-Eem7M4w2QGGPcw" text="Returns the ArrayList of Items in this class.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return&#x9;The ArrayList of Items." item="_THhMYLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAHbi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THcTgLi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THcTgbi-Eem7M4w2QGGPcw" text="Finds all the Items that are next to the current Bug b.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param b&#x9;Checks if there are any items next to this Bug.&#xD;&#xA;&#x9; * @return&#x9;Returns an ArrayList of Items that are next to Bug b." item="_THhMcLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAGLi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THcTgri-Eem7M4w2QGGPcw" sourceConnectionVisual="_THcTg7i-Eem7M4w2QGGPcw" text="Tests to see if Item myitem is inside the Scene myscene.&#xD;&#xA;&#xD;&#xA;@param myitem&#x9;Item object to test.&#x9;&#xD;&#xA;@param myscene&#x9;Scene object to test.&#xD;&#xA;@return &#x9;Returns true if myitem is inside myscene, false if not." item="_THhMeLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAFri-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THcThLi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THcThbi-Eem7M4w2QGGPcw" text="&#xD;&#xA;&#x9; * Moves all the Bugs inside the list.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param myscene&#x9;The Scene object passed from the Graphics class." item="_THhMg7i-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAG7i-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THc6kLi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THc6kbi-Eem7M4w2QGGPcw" text="&#xD;&#xA;&#x9; * Moves the Bug in a random direction.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param b&#x9;The Bug object to move.&#xD;&#xA;&#x9; * @param myscene&#x9;The Scene object passed from the Graphics class." item="_THhMibi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCMAHLi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THrkELi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THrkEbi-Eem7M4w2QGGPcw" text="&#xD;&#xA;@author Natsuki Hasegawa &lt;haseganats@myvuw.ac.nz>&#xD;&#xA;@version 1.0&#xD;&#xA;@since 1.0&#xD;&#xA; *" item="_THxDoLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCLZALi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THsyMLi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THsyMbi-Eem7M4w2QGGPcw" text="&#xD;&#xA;&#x9; * @param name&#xD;&#xA;&#x9; * @param x&#xD;&#xA;&#x9; * @param y&#xD;&#xA;&#x9; * @param im" item="_THxDuri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCLZAbi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THuAULi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THuAUbi-Eem7M4w2QGGPcw" text="&#xD;&#xA;@author Natsuki Hasegawa&#xD;&#xA;@version 1.0&#xD;&#xA;@since 2019-08-05&#xD;&#xA; *" item="_THzf4Li-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCI8wLi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_THunYLi-Eem7M4w2QGGPcw" sourceConnectionVisual="_THunYbi-Eem7M4w2QGGPcw" text="&#xD;&#xA;&#x9; * @param x&#xD;&#xA;&#x9; * @param y&#xD;&#xA;&#x9; * @param im&#xD;&#xA;&#x9; * @param size" item="_THzgDLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCI8wbi-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_TIDXgbi-Eem7M4w2QGGPcw" sourceConnectionVisual="_TIDXgri-Eem7M4w2QGGPcw" text="Get new list of items (bug, obstacle, plant) from the world" item="_TINI_ri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_TCKx9Li-Eem7M4w2QGGPcw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_THglAri-Eem7M4w2QGGPcw" comments="_THZQMLi-Eem7M4w2QGGPcw" targetConnectionVisual="_THZ3QLi-Eem7M4w2QGGPcw" name="World" associationsIn="_TH4YYLi-Eem7M4w2QGGPcw" associationsOut="_THeIsLi-Eem7M4w2QGGPcw _THevyLi-Eem7M4w2QGGPcw _THfW0Li-Eem7M4w2QGGPcw _THfW2bi-Eem7M4w2QGGPcw _THf94Li-Eem7M4w2QGGPcw _THf96bi-Eem7M4w2QGGPcw _THgk8Li-Eem7M4w2QGGPcw _THgk-bi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_S_a_8Li-Eem7M4w2QGGPcw"/>
+    <visualProperties xmi:id="_THglA7i-Eem7M4w2QGGPcw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_THglBLi-Eem7M4w2QGGPcw" label="+"/>
+    <attributes xmi:id="_THglBbi-Eem7M4w2QGGPcw" defaultValue="1200" name="width">
+      <modelElement href="BugWorldNat.uml#_TB99oLi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THglBri-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB99ori-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THglB7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THglCLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THglCbi-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THglCri-Eem7M4w2QGGPcw" defaultValue="720" name="height">
+      <modelElement href="BugWorldNat.uml#_TB99o7i-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THglC7i-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB-ksLi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THglDLi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THglDbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THglDri-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THglD7i-Eem7M4w2QGGPcw" defaultValue="new Image(&quot;stone.png&quot;, 25, 25, true, true)" name="stone">
+      <modelElement href="BugWorldNat.uml#_TB-ksbi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMALi-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB-ks7i-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMAbi-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THhMAri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THhMA7i-Eem7M4w2QGGPcw" name="Image">
+        <modelElement href="BugWorldNat.uml#_TA60wLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THhMBLi-Eem7M4w2QGGPcw" defaultValue="new Image(&quot;bug.png&quot;, 25, 25, true, true)" name="bug">
+      <modelElement href="BugWorldNat.uml#_TB-ktLi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMBbi-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB_LwLi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMBri-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THhMB7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THhMCLi-Eem7M4w2QGGPcw" name="Image">
+        <modelElement href="BugWorldNat.uml#_TA60wLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THhMCbi-Eem7M4w2QGGPcw" defaultValue="new Image(&quot;plant.png&quot;, 25, 25, true, true)" name="plant">
+      <modelElement href="BugWorldNat.uml#_TB_Lwbi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMCri-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB_Lw7i-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMC7i-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THhMDLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THhMDbi-Eem7M4w2QGGPcw" name="Image">
+        <modelElement href="BugWorldNat.uml#_TA60wLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THhMDri-Eem7M4w2QGGPcw" name="myBug">
+      <modelElement href="BugWorldNat.uml#_TB_LxLi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMD7i-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB_y0Li-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMELi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THhMEbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THhMEri-Eem7M4w2QGGPcw" name="Bug">
+        <modelElement href="BugWorldNat.uml#_S_BXULi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THhME7i-Eem7M4w2QGGPcw" name="myPlant">
+      <modelElement href="BugWorldNat.uml#_TB_y0bi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMFLi-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB_y0ri-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMFbi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THhMFri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THhMF7i-Eem7M4w2QGGPcw" name="Plant">
+        <modelElement href="BugWorldNat.uml#_S_ZKwLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THhMGLi-Eem7M4w2QGGPcw" name="myObs">
+      <modelElement href="BugWorldNat.uml#_TB_y07i-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMGbi-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TCAZ4Li-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMGri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THhMG7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THhMHLi-Eem7M4w2QGGPcw" name="Obstacle">
+        <modelElement href="BugWorldNat.uml#_S_X8oLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THhMHbi-Eem7M4w2QGGPcw" defaultValue="new ArrayList&lt;Item>()" name="items">
+      <modelElement href="BugWorldNat.uml#_TCAZ4bi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMHri-Eem7M4w2QGGPcw" name="Generics">
+        <modelElement href="BugWorldNat.uml#_TCBA8Li-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_THhMH7i-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TCBA8ri-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMILi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THhMIbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THhMIri-Eem7M4w2QGGPcw" name="ArrayList">
+        <modelElement href="BugWorldNat.uml#_TBW5oLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THhMI7i-Eem7M4w2QGGPcw" name="myscene">
+      <modelElement href="BugWorldNat.uml#_TCBA87i-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMJLi-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TCBoALi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMJbi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THhMJri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THhMJ7i-Eem7M4w2QGGPcw" name="Scene">
+        <modelElement href="BugWorldNat.uml#_TA_GMbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_THhMKLi-Eem7M4w2QGGPcw" name="World">
+      <modelElement href="BugWorldNat.uml#_S_cOELi-Eem7M4w2QGGPcw"/>
+      <keywords xmi:id="_THhMKbi-Eem7M4w2QGGPcw" keyword="create"/>
+      <visibility xmi:id="_THhMKri-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMK7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMLLi-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_cOE7i-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMLbi-Eem7M4w2QGGPcw" name="World">
+          <modelElement href="BugWorldNat.uml#_S_a_8Li-Eem7M4w2QGGPcw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THhMLri-Eem7M4w2QGGPcw" comments="_THZ3Qbi-Eem7M4w2QGGPcw" targetConnectionVisual="_THaeULi-Eem7M4w2QGGPcw" name="addBug">
+      <modelElement href="BugWorldNat.uml#_S_cOFLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhML7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMMLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_THhMMbi-Eem7M4w2QGGPcw" name="bugNum">
+        <modelElement href="BugWorldNat.uml#_S_cOFbi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMMri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMM7i-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THhMNLi-Eem7M4w2QGGPcw" comments="_THaeUbi-Eem7M4w2QGGPcw" targetConnectionVisual="_THaeUri-Eem7M4w2QGGPcw" name="addPlant">
+      <modelElement href="BugWorldNat.uml#_S_c1ILi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMNbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMNri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_THhMN7i-Eem7M4w2QGGPcw" name="plNum">
+        <modelElement href="BugWorldNat.uml#_S_c1Ibi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMOLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMObi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THhMOri-Eem7M4w2QGGPcw" comments="_THaeU7i-Eem7M4w2QGGPcw" targetConnectionVisual="_THaeVLi-Eem7M4w2QGGPcw" name="addObstacle">
+      <modelElement href="BugWorldNat.uml#_S_c1Iri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMO7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMPLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_THhMPbi-Eem7M4w2QGGPcw" name="obsNum">
+        <modelElement href="BugWorldNat.uml#_S_c1I7i-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMPri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMP7i-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THhMQLi-Eem7M4w2QGGPcw" comments="_THaeVbi-Eem7M4w2QGGPcw" targetConnectionVisual="_THaeVri-Eem7M4w2QGGPcw" name="randomX">
+      <modelElement href="BugWorldNat.uml#_S_c1JLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMQbi-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THhMQri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMQ7i-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_dcMLi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMRLi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THhMRbi-Eem7M4w2QGGPcw" comments="_THbFYLi-Eem7M4w2QGGPcw" targetConnectionVisual="_THbFYbi-Eem7M4w2QGGPcw" name="randomY">
+      <modelElement href="BugWorldNat.uml#_S_dcMbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMRri-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THhMR7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMSLi-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_dcMri-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMSbi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THhMSri-Eem7M4w2QGGPcw" comments="_THbFYri-Eem7M4w2QGGPcw" targetConnectionVisual="_THbFY7i-Eem7M4w2QGGPcw" name="randomSize">
+      <modelElement href="BugWorldNat.uml#_S_dcM7i-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMS7i-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THhMTLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMTbi-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_dcNLi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMTri-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THhMT7i-Eem7M4w2QGGPcw" comments="_THbFZLi-Eem7M4w2QGGPcw" targetConnectionVisual="_THbFZbi-Eem7M4w2QGGPcw" name="isValidPoint">
+      <modelElement href="BugWorldNat.uml#_S_eDQLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMULi-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THhMUbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMUri-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_eDQ7i-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMU7i-Eem7M4w2QGGPcw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_THhMVLi-Eem7M4w2QGGPcw" name="x">
+        <modelElement href="BugWorldNat.uml#_S_eDQbi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMVbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMVri-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THhMV7i-Eem7M4w2QGGPcw" name="y">
+        <modelElement href="BugWorldNat.uml#_S_eDQri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMWLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMWbi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THhMWri-Eem7M4w2QGGPcw" comments="_THbFZri-Eem7M4w2QGGPcw" targetConnectionVisual="_THbscLi-Eem7M4w2QGGPcw" name="growPlants">
+      <modelElement href="BugWorldNat.uml#_S_eqULi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMW7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMXLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_THhMXbi-Eem7M4w2QGGPcw" comments="_THbscbi-Eem7M4w2QGGPcw" targetConnectionVisual="_THbscri-Eem7M4w2QGGPcw" name="growBugs">
+      <modelElement href="BugWorldNat.uml#_S_eqUbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMXri-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMX7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_THhMYLi-Eem7M4w2QGGPcw" comments="_THbsc7i-Eem7M4w2QGGPcw" targetConnectionVisual="_THbsdLi-Eem7M4w2QGGPcw" name="getItems">
+      <modelElement href="BugWorldNat.uml#_S_eqUri-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THhMYbi-Eem7M4w2QGGPcw" name="Generics">
+        <modelElement href="BugWorldNat.uml#_S_fRYLi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THhMYri-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMY7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMZLi-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_TButELi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMZbi-Eem7M4w2QGGPcw" name="ArrayList">
+          <modelElement href="BugWorldNat.uml#_TBW5oLi-Eem7M4w2QGGPcw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THhMZri-Eem7M4w2QGGPcw" name="getWidth">
+      <modelElement href="BugWorldNat.uml#_S_f4cLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMZ7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMaLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMabi-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_f4cbi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMari-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THhMa7i-Eem7M4w2QGGPcw" name="getHeight">
+      <modelElement href="BugWorldNat.uml#_S_f4cri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMbLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMbbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMbri-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_f4c7i-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMb7i-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THhMcLi-Eem7M4w2QGGPcw" comments="_THcTgLi-Eem7M4w2QGGPcw" targetConnectionVisual="_THcTgbi-Eem7M4w2QGGPcw" name="adjacentItems">
+      <modelElement href="BugWorldNat.uml#_TBYu0Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMcbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMcri-Eem7M4w2QGGPcw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_THhMc7i-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_TBZV4Li-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMdLi-Eem7M4w2QGGPcw" name="Item">
+          <modelElement href="BugWorldNat.uml#_S_U5ULi-Eem7M4w2QGGPcw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_THhMdbi-Eem7M4w2QGGPcw" name="b">
+        <modelElement href="BugWorldNat.uml#_TBYu0bi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMdri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMd7i-Eem7M4w2QGGPcw" name="Bug">
+          <modelElement href="BugWorldNat.uml#_S_BXULi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THhMeLi-Eem7M4w2QGGPcw" comments="_THcTgri-Eem7M4w2QGGPcw" targetConnectionVisual="_THcTg7i-Eem7M4w2QGGPcw" name="isInWindow">
+      <modelElement href="BugWorldNat.uml#_TBs34Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMebi-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THhMeri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THhMe7i-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_TBs347i-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THhMfLi-Eem7M4w2QGGPcw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_THhMfbi-Eem7M4w2QGGPcw" name="myitem">
+        <modelElement href="BugWorldNat.uml#_TBs34bi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMfri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMf7i-Eem7M4w2QGGPcw" name="Item">
+          <modelElement href="BugWorldNat.uml#_S_U5ULi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THhMgLi-Eem7M4w2QGGPcw" name="myscene">
+        <modelElement href="BugWorldNat.uml#_TBs34ri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMgbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMgri-Eem7M4w2QGGPcw" name="Scene">
+          <modelElement href="BugWorldNat.uml#_TA_GMbi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THhMg7i-Eem7M4w2QGGPcw" comments="_THcThLi-Eem7M4w2QGGPcw" targetConnectionVisual="_THcThbi-Eem7M4w2QGGPcw" name="moveAllBugs">
+      <modelElement href="BugWorldNat.uml#_TBte8Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMhLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMhbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_THhMhri-Eem7M4w2QGGPcw" name="myscene">
+        <modelElement href="BugWorldNat.uml#_TBte8bi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMh7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMiLi-Eem7M4w2QGGPcw" name="Scene">
+          <modelElement href="BugWorldNat.uml#_TA_GMbi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THhMibi-Eem7M4w2QGGPcw" comments="_THc6kLi-Eem7M4w2QGGPcw" targetConnectionVisual="_THc6kbi-Eem7M4w2QGGPcw" name="moveRandom">
+      <modelElement href="BugWorldNat.uml#_TBuGALi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THhMiri-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THhMi7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_THhMjLi-Eem7M4w2QGGPcw" name="b">
+        <modelElement href="BugWorldNat.uml#_TBuGAbi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMjbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMjri-Eem7M4w2QGGPcw" name="Bug">
+          <modelElement href="BugWorldNat.uml#_S_BXULi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THhMj7i-Eem7M4w2QGGPcw" name="myscene">
+        <modelElement href="BugWorldNat.uml#_TBuGAri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THhMkLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THhMkbi-Eem7M4w2QGGPcw" name="Scene">
+          <modelElement href="BugWorldNat.uml#_TA_GMbi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_THxDoLi-Eem7M4w2QGGPcw" comments="_THrkELi-Eem7M4w2QGGPcw" targetConnectionVisual="_THrkEbi-Eem7M4w2QGGPcw" name="Item" associationsIn="_TIBiUbi-Eem7M4w2QGGPcw" associationsOut="_THwckLi-Eem7M4w2QGGPcw" subclassedBy="_THsLILi-Eem7M4w2QGGPcw _THsLIbi-Eem7M4w2QGGPcw _THsLIri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_S_U5ULi-Eem7M4w2QGGPcw"/>
+    <visualProperties xmi:id="_THxDobi-Eem7M4w2QGGPcw" position="-184.0,-402.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_THxDori-Eem7M4w2QGGPcw" label="+"/>
+    <attributes xmi:id="_THxDo7i-Eem7M4w2QGGPcw" name="name">
+      <modelElement href="BugWorldNat.uml#_TB8vgLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THxDpLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THxDpbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THxDpri-Eem7M4w2QGGPcw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THxDp7i-Eem7M4w2QGGPcw" name="icon">
+      <modelElement href="BugWorldNat.uml#_TB8vgbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THxDqLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THxDqbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THxDqri-Eem7M4w2QGGPcw" name="ImageView">
+        <modelElement href="BugWorldNat.uml#_TBI3M7i-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THxDq7i-Eem7M4w2QGGPcw" defaultValue="5" name="circleSize" staticAttribute="true">
+      <modelElement href="BugWorldNat.uml#_TB8vgri-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THxDrLi-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB9WkLi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THxDrbi-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THxDrri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THxDr7i-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_THxDsLi-Eem7M4w2QGGPcw" name="getX">
+      <modelElement href="BugWorldNat.uml#_S_WHcLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THxDsbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THxDsri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THxDs7i-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_WHcbi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THxDtLi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THxDtbi-Eem7M4w2QGGPcw" name="getY">
+      <modelElement href="BugWorldNat.uml#_S_WugLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THxDtri-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THxDt7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THxDuLi-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_Wugbi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THxDubi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THxDuri-Eem7M4w2QGGPcw" comments="_THsyMLi-Eem7M4w2QGGPcw" targetConnectionVisual="_THsyMbi-Eem7M4w2QGGPcw" name="Item">
+      <modelElement href="BugWorldNat.uml#_TBomcLi-Eem7M4w2QGGPcw"/>
+      <keywords xmi:id="_THxDu7i-Eem7M4w2QGGPcw" keyword="create"/>
+      <visibility xmi:id="_THxDvLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THxDvbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THxDvri-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_TBpNhbi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THxDv7i-Eem7M4w2QGGPcw" name="Item">
+          <modelElement href="BugWorldNat.uml#_S_U5ULi-Eem7M4w2QGGPcw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_THxDwLi-Eem7M4w2QGGPcw" name="name">
+        <modelElement href="BugWorldNat.uml#_TBomcbi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THxDwbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THxDwri-Eem7M4w2QGGPcw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THxDw7i-Eem7M4w2QGGPcw" name="x">
+        <modelElement href="BugWorldNat.uml#_TBpNgLi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THxDxLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THxDxbi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THxDxri-Eem7M4w2QGGPcw" name="y">
+        <modelElement href="BugWorldNat.uml#_TBpNgbi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THxDx7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THxDyLi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THxDybi-Eem7M4w2QGGPcw" name="im">
+        <modelElement href="BugWorldNat.uml#_TBpNgri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THxDyri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THxDy7i-Eem7M4w2QGGPcw" name="Image">
+          <modelElement href="BugWorldNat.uml#_TA60wLi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_THzf4Li-Eem7M4w2QGGPcw" comments="_THuAULi-Eem7M4w2QGGPcw" targetConnectionVisual="_THuAUbi-Eem7M4w2QGGPcw" name="Bug" associationsIn="_THfW2bi-Eem7M4w2QGGPcw _TIA7QLi-Eem7M4w2QGGPcw" generalizations="_THsLILi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_S_BXULi-Eem7M4w2QGGPcw"/>
+    <visualProperties xmi:id="_THzf4bi-Eem7M4w2QGGPcw" position="-734.0,-162.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_THzf4ri-Eem7M4w2QGGPcw" label="+"/>
+    <attributes xmi:id="_THzf47i-Eem7M4w2QGGPcw" name="species">
+      <modelElement href="BugWorldNat.uml#_TByXcLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THzf5Li-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THzf5bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THzf5ri-Eem7M4w2QGGPcw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THzf57i-Eem7M4w2QGGPcw" name="name">
+      <modelElement href="BugWorldNat.uml#_TByXcbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THzf6Li-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THzf6bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THzf6ri-Eem7M4w2QGGPcw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THzf67i-Eem7M4w2QGGPcw" defaultValue="0" name="ID">
+      <modelElement href="BugWorldNat.uml#_TBy-gLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THzf7Li-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THzf7bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THzf7ri-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THzf77i-Eem7M4w2QGGPcw" defaultValue="0" name="bugNum" staticAttribute="true">
+      <modelElement href="BugWorldNat.uml#_TBy-gri-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THzf8Li-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TBy-g7i-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THzf8bi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THzf8ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THzf87i-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THzf9Li-Eem7M4w2QGGPcw" defaultValue="2" name="step" staticAttribute="true">
+      <modelElement href="BugWorldNat.uml#_TB0Mobi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THzf9bi-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB0zsLi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THzf9ri-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THzf97i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THzf-Li-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THzf-bi-Eem7M4w2QGGPcw" name="size">
+      <modelElement href="BugWorldNat.uml#_TB0zsbi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_THzf-ri-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+        <modelElement href="BugWorldNat.uml#_TB0zsri-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_THzf-7i-Eem7M4w2QGGPcw" label="-"/>
+      <cardinality xmi:id="_THzf_Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_THzf_bi-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_THzf_ri-Eem7M4w2QGGPcw" name="getStep">
+      <modelElement href="BugWorldNat.uml#_S_DMgLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THzf_7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THzgALi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THzgAbi-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_S_DzkLi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THzgAri-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THzgA7i-Eem7M4w2QGGPcw" name="Move">
+      <modelElement href="BugWorldNat.uml#_S_Dzkbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THzgBLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THzgBbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_THzgBri-Eem7M4w2QGGPcw" name="dir">
+        <modelElement href="BugWorldNat.uml#_S_Dzkri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THzgB7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THzgCLi-Eem7M4w2QGGPcw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THzgCbi-Eem7M4w2QGGPcw" name="grow">
+      <modelElement href="BugWorldNat.uml#_S_EaoLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_THzgCri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_THzgC7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_THzgDLi-Eem7M4w2QGGPcw" comments="_THunYLi-Eem7M4w2QGGPcw" targetConnectionVisual="_THunYbi-Eem7M4w2QGGPcw" name="Bug">
+      <modelElement href="BugWorldNat.uml#_TBe1cLi-Eem7M4w2QGGPcw"/>
+      <keywords xmi:id="_THzgDbi-Eem7M4w2QGGPcw" keyword="create"/>
+      <visibility xmi:id="_THzgDri-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_THzgD7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THzgELi-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_TBfchbi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_THzgEbi-Eem7M4w2QGGPcw" name="Bug">
+          <modelElement href="BugWorldNat.uml#_S_BXULi-Eem7M4w2QGGPcw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_THzgEri-Eem7M4w2QGGPcw" name="x">
+        <modelElement href="BugWorldNat.uml#_TBe1cbi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THzgE7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THzgFLi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THzgFbi-Eem7M4w2QGGPcw" name="y">
+        <modelElement href="BugWorldNat.uml#_TBfcgLi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THzgFri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THzgF7i-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THzgGLi-Eem7M4w2QGGPcw" name="im">
+        <modelElement href="BugWorldNat.uml#_TBfcgbi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THzgGbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THzgGri-Eem7M4w2QGGPcw" name="Image">
+          <modelElement href="BugWorldNat.uml#_TA60wLi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_THzgG7i-Eem7M4w2QGGPcw" name="size">
+        <modelElement href="BugWorldNat.uml#_TBfcgri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_THzgHLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_THzgHbi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TINIiLi-Eem7M4w2QGGPcw" name="Graphics" associationsOut="_TH4YYLi-Eem7M4w2QGGPcw _TIA7QLi-Eem7M4w2QGGPcw _TIA7Qbi-Eem7M4w2QGGPcw _TIBiULi-Eem7M4w2QGGPcw _TIBiUbi-Eem7M4w2QGGPcw _TICwfbi-Eem7M4w2QGGPcw _TICwfri-Eem7M4w2QGGPcw _TIDXgLi-Eem7M4w2QGGPcw _TII3ELi-Eem7M4w2QGGPcw _TII3Gbi-Eem7M4w2QGGPcw _TIJeILi-Eem7M4w2QGGPcw _TIJeKbi-Eem7M4w2QGGPcw _TIJeMri-Eem7M4w2QGGPcw _TIKFMLi-Eem7M4w2QGGPcw _TIKFObi-Eem7M4w2QGGPcw _TIKsQLi-Eem7M4w2QGGPcw _TIKsSbi-Eem7M4w2QGGPcw _TILTULi-Eem7M4w2QGGPcw _TILTWbi-Eem7M4w2QGGPcw _TIL6YLi-Eem7M4w2QGGPcw _TIL6abi-Eem7M4w2QGGPcw _TIMhcLi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_S_G24Li-Eem7M4w2QGGPcw"/>
+    <visualProperties xmi:id="_TINIibi-Eem7M4w2QGGPcw" position="-294.0,166.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_TINIiri-Eem7M4w2QGGPcw" name="LegacyStyledElement">
+      <modelElement href="BugWorldNat.uml#_S_Hd8Li-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TINIi7i-Eem7M4w2QGGPcw" name="Annotations">
+      <modelElement href="BugWorldNat.uml#_S_LvYLi-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <visibility xmi:id="_TINIjLi-Eem7M4w2QGGPcw" label="+"/>
+    <attributes xmi:id="_TINIjbi-Eem7M4w2QGGPcw" name="w">
+      <modelElement href="BugWorldNat.uml#_TB1awLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIjri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIj7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIkLi-Eem7M4w2QGGPcw" name="World">
+        <modelElement href="BugWorldNat.uml#_S_a_8Li-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIkbi-Eem7M4w2QGGPcw" name="b">
+      <modelElement href="BugWorldNat.uml#_TB2B0Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIkri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIk7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIlLi-Eem7M4w2QGGPcw" name="Bug">
+        <modelElement href="BugWorldNat.uml#_S_BXULi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIlbi-Eem7M4w2QGGPcw" name="o">
+      <modelElement href="BugWorldNat.uml#_TB2B0bi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIlri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIl7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINImLi-Eem7M4w2QGGPcw" name="Obstacle">
+        <modelElement href="BugWorldNat.uml#_S_X8oLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINImbi-Eem7M4w2QGGPcw" name="p">
+      <modelElement href="BugWorldNat.uml#_TB2B0ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINImri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIm7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINInLi-Eem7M4w2QGGPcw" name="Plant">
+        <modelElement href="BugWorldNat.uml#_S_ZKwLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINInbi-Eem7M4w2QGGPcw" name="items">
+      <modelElement href="BugWorldNat.uml#_TB2o4Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINInri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIn7i-Eem7M4w2QGGPcw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_TINIoLi-Eem7M4w2QGGPcw" name="Item">
+        <modelElement href="BugWorldNat.uml#_S_U5ULi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIobi-Eem7M4w2QGGPcw" defaultValue="Color.RED" name="bugColor">
+      <modelElement href="BugWorldNat.uml#_TB2o4ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIori-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIo7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIpLi-Eem7M4w2QGGPcw" name="Color">
+        <modelElement href="BugWorldNat.uml#_TBLTcbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIpbi-Eem7M4w2QGGPcw" defaultValue="Color.BLACK" name="obsColor">
+      <modelElement href="BugWorldNat.uml#_TB3P8Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIpri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIp7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIqLi-Eem7M4w2QGGPcw" name="Color">
+        <modelElement href="BugWorldNat.uml#_TBLTcbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIqbi-Eem7M4w2QGGPcw" defaultValue="Color.GREEN" name="plantColor">
+      <modelElement href="BugWorldNat.uml#_TB3P8ri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIqri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIq7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIrLi-Eem7M4w2QGGPcw" name="Color">
+        <modelElement href="BugWorldNat.uml#_TBLTcbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIrbi-Eem7M4w2QGGPcw" name="frame">
+      <modelElement href="BugWorldNat.uml#_TB33ALi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIrri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIr7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIsLi-Eem7M4w2QGGPcw" name="KeyFrame">
+        <modelElement href="BugWorldNat.uml#_TA9RAbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIsbi-Eem7M4w2QGGPcw" name="scene">
+      <modelElement href="BugWorldNat.uml#_TB33Abi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIsri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIs7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINItLi-Eem7M4w2QGGPcw" name="Scene">
+        <modelElement href="BugWorldNat.uml#_TA_GMbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINItbi-Eem7M4w2QGGPcw" name="root">
+      <modelElement href="BugWorldNat.uml#_TB33Ari-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINItri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIt7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIuLi-Eem7M4w2QGGPcw" name="Group">
+        <modelElement href="BugWorldNat.uml#_TA-fI7i-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIubi-Eem7M4w2QGGPcw" name="myImg">
+      <modelElement href="BugWorldNat.uml#_TB4eELi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIuri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIu7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIvLi-Eem7M4w2QGGPcw" name="Image">
+        <modelElement href="BugWorldNat.uml#_TA60wLi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIvbi-Eem7M4w2QGGPcw" name="bgi">
+      <modelElement href="BugWorldNat.uml#_TB4eEbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIvri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIv7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIwLi-Eem7M4w2QGGPcw" name="BackgroundImage">
+        <modelElement href="BugWorldNat.uml#_TBKFUbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIwbi-Eem7M4w2QGGPcw" name="bg">
+      <modelElement href="BugWorldNat.uml#_TB4eEri-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIwri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIw7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIxLi-Eem7M4w2QGGPcw" name="Background">
+        <modelElement href="BugWorldNat.uml#_TBJeQbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIxbi-Eem7M4w2QGGPcw" name="box">
+      <modelElement href="BugWorldNat.uml#_TB5FILi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIxri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIx7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIyLi-Eem7M4w2QGGPcw" name="VBox">
+        <modelElement href="BugWorldNat.uml#_TBKsYbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIybi-Eem7M4w2QGGPcw" name="hb">
+      <modelElement href="BugWorldNat.uml#_TB5FIbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINIyri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINIy7i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINIzLi-Eem7M4w2QGGPcw" name="HBox">
+        <modelElement href="BugWorldNat.uml#_TBKFU7i-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINIzbi-Eem7M4w2QGGPcw" name="bugBtn">
+      <modelElement href="BugWorldNat.uml#_TB5sMLi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINIzri-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TB5sMbi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINIz7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI0Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI0bi-Eem7M4w2QGGPcw" name="Button">
+        <modelElement href="BugWorldNat.uml#_TBI3Mbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI0ri-Eem7M4w2QGGPcw" name="width">
+      <modelElement href="BugWorldNat.uml#_TB6TQLi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI07i-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TB6TQbi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINI1Li-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI1bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI1ri-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI17i-Eem7M4w2QGGPcw" name="x">
+      <modelElement href="BugWorldNat.uml#_TB66ULi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI2Li-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TB66Ubi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINI2bi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI2ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI27i-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI3Li-Eem7M4w2QGGPcw" name="img">
+      <modelElement href="BugWorldNat.uml#_TB7hYLi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TINI3bi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI3ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI37i-Eem7M4w2QGGPcw" name="ImageView">
+        <modelElement href="BugWorldNat.uml#_TBI3M7i-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI4Li-Eem7M4w2QGGPcw" name="plBtn">
+      <modelElement href="BugWorldNat.uml#_TCJj0Li-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI4bi-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TCJj0bi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINI4ri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI47i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI5Li-Eem7M4w2QGGPcw" name="Button">
+        <modelElement href="BugWorldNat.uml#_TBI3Mbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI5bi-Eem7M4w2QGGPcw" name="obsBtn">
+      <modelElement href="BugWorldNat.uml#_TCJj0ri-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI5ri-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TCJj07i-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINI57i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI6Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI6bi-Eem7M4w2QGGPcw" name="Button">
+        <modelElement href="BugWorldNat.uml#_TBI3Mbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI6ri-Eem7M4w2QGGPcw" name="grPlBtn">
+      <modelElement href="BugWorldNat.uml#_TCKK4Li-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI67i-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TCKK4bi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINI7Li-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI7bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI7ri-Eem7M4w2QGGPcw" name="Button">
+        <modelElement href="BugWorldNat.uml#_TBI3Mbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI77i-Eem7M4w2QGGPcw" name="grBugBtn">
+      <modelElement href="BugWorldNat.uml#_TCKK4ri-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI8Li-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TCKK47i-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINI8bi-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI8ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI87i-Eem7M4w2QGGPcw" name="Button">
+        <modelElement href="BugWorldNat.uml#_TBI3Mbi-Eem7M4w2QGGPcw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI9Li-Eem7M4w2QGGPcw" name="height">
+      <modelElement href="BugWorldNat.uml#_TCKx8Li-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI9bi-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TCKx8bi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINI9ri-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI97i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI-Li-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TINI-bi-Eem7M4w2QGGPcw" name="y">
+      <modelElement href="BugWorldNat.uml#_TCKx8ri-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI-ri-Eem7M4w2QGGPcw" name="MultiDeclaration">
+        <modelElement href="BugWorldNat.uml#_TCKx87i-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINI-7i-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TINI_Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TINI_bi-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TINI_ri-Eem7M4w2QGGPcw" comments="_TIDXgbi-Eem7M4w2QGGPcw" targetConnectionVisual="_TIDXgri-Eem7M4w2QGGPcw" name="updateItems">
+      <modelElement href="BugWorldNat.uml#_S_J6MLi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINI_7i-Eem7M4w2QGGPcw" name="StyledElement">
+        <modelElement href="BugWorldNat.uml#_S_KhQLi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINJALi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TINJAbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_TINJAri-Eem7M4w2QGGPcw" name="main" staticOperation="true">
+      <modelElement href="BugWorldNat.uml#_S_KhQbi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINJA7i-Eem7M4w2QGGPcw" name="StyledElement">
+        <modelElement href="BugWorldNat.uml#_S_LIULi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINJBLi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TINJBbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TINJBri-Eem7M4w2QGGPcw" name="args">
+        <modelElement href="BugWorldNat.uml#_S_KhQri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TINJB7i-Eem7M4w2QGGPcw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_TINJCLi-Eem7M4w2QGGPcw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TINJCbi-Eem7M4w2QGGPcw" name="start">
+      <modelElement href="BugWorldNat.uml#_TBjt8bi-Eem7M4w2QGGPcw"/>
+      <stereotypes xmi:id="_TINJCri-Eem7M4w2QGGPcw" name="Annotations">
+        <modelElement href="BugWorldNat.uml#_TBk8ELi-Eem7M4w2QGGPcw"/>
+      </stereotypes>
+      <visibility xmi:id="_TINJC7i-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TINJDLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TINJDbi-Eem7M4w2QGGPcw" name="primaryStage">
+        <modelElement href="BugWorldNat.uml#_TBjt8ri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TINJDri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_TINJD7i-Eem7M4w2QGGPcw" name="Stage">
+          <modelElement href="BugWorldNat.uml#_TBL6gLi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TIW5gLi-Eem7M4w2QGGPcw" name="Exception">
+    <modelElement href="BugWorldNat.uml#_TBjG4bi-Eem7M4w2QGGPcw"/>
+    <visualProperties xmi:id="_TIW5gbi-Eem7M4w2QGGPcw" position="-199.0,1187.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_TIW5gri-Eem7M4w2QGGPcw" name="Reference">
+      <modelElement href="BugWorldNat.uml#_TBjt8Li-Eem7M4w2QGGPcw"/>
+    </stereotypes>
+    <visibility xmi:id="_TIW5g7i-Eem7M4w2QGGPcw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TIYHoLi-Eem7M4w2QGGPcw" name="Obstacle" associationsIn="_THf96bi-Eem7M4w2QGGPcw _TIA7Qbi-Eem7M4w2QGGPcw" generalizations="_THsLIbi-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_S_X8oLi-Eem7M4w2QGGPcw"/>
+    <visualProperties xmi:id="_TIYHobi-Eem7M4w2QGGPcw" position="-135.0,-88.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TIYHori-Eem7M4w2QGGPcw" label="+"/>
+    <operations xmi:id="_TIYHo7i-Eem7M4w2QGGPcw" name="Obstacle">
+      <modelElement href="BugWorldNat.uml#_TBqboLi-Eem7M4w2QGGPcw"/>
+      <keywords xmi:id="_TIYHpLi-Eem7M4w2QGGPcw" keyword="create"/>
+      <visibility xmi:id="_TIYHpbi-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIYHpri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TIYHp7i-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_TBqbpri-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_TIYHqLi-Eem7M4w2QGGPcw" name="Obstacle">
+          <modelElement href="BugWorldNat.uml#_S_X8oLi-Eem7M4w2QGGPcw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TIYHqbi-Eem7M4w2QGGPcw" name="x">
+        <modelElement href="BugWorldNat.uml#_TBqbobi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TIYHqri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_TIYHq7i-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TIYHrLi-Eem7M4w2QGGPcw" name="y">
+        <modelElement href="BugWorldNat.uml#_TBqbori-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TIYHrbi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_TIYHrri-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TIYHr7i-Eem7M4w2QGGPcw" name="im">
+        <modelElement href="BugWorldNat.uml#_TBqbo7i-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TIYHsLi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_TIYHsbi-Eem7M4w2QGGPcw" name="Image">
+          <modelElement href="BugWorldNat.uml#_TA60wLi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TIaj4Li-Eem7M4w2QGGPcw" name="Plant" associationsIn="_THf94Li-Eem7M4w2QGGPcw _TIBiULi-Eem7M4w2QGGPcw" generalizations="_THsLIri-Eem7M4w2QGGPcw">
+    <modelElement href="BugWorldNat.uml#_S_ZKwLi-Eem7M4w2QGGPcw"/>
+    <visualProperties xmi:id="_TIaj4bi-Eem7M4w2QGGPcw" position="561.0,-141.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TIaj4ri-Eem7M4w2QGGPcw" label="+"/>
+    <attributes xmi:id="_TIaj47i-Eem7M4w2QGGPcw" name="size">
+      <modelElement href="BugWorldNat.uml#_TB9Wkbi-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIaj5Li-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIaj5bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <type xmi:id="_TIaj5ri-Eem7M4w2QGGPcw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TIaj57i-Eem7M4w2QGGPcw" name="grow">
+      <modelElement href="BugWorldNat.uml#_S_Zx0Li-Eem7M4w2QGGPcw"/>
+      <visibility xmi:id="_TIaj6Li-Eem7M4w2QGGPcw" label="~"/>
+      <cardinality xmi:id="_TIaj6bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_TIaj6ri-Eem7M4w2QGGPcw" name="Plant">
+      <modelElement href="BugWorldNat.uml#_TBrCsLi-Eem7M4w2QGGPcw"/>
+      <keywords xmi:id="_TIaj67i-Eem7M4w2QGGPcw" keyword="create"/>
+      <visibility xmi:id="_TIaj7Li-Eem7M4w2QGGPcw" label="+"/>
+      <cardinality xmi:id="_TIaj7bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TIaj7ri-Eem7M4w2QGGPcw">
+        <modelElement href="BugWorldNat.uml#_TBrpwbi-Eem7M4w2QGGPcw"/>
+        <type xmi:id="_TIaj77i-Eem7M4w2QGGPcw" name="Plant">
+          <modelElement href="BugWorldNat.uml#_S_ZKwLi-Eem7M4w2QGGPcw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TIaj8Li-Eem7M4w2QGGPcw" name="size">
+        <modelElement href="BugWorldNat.uml#_TBrCsbi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TIaj8bi-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_TIaj8ri-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TIaj87i-Eem7M4w2QGGPcw" name="x">
+        <modelElement href="BugWorldNat.uml#_TBrCsri-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TIaj9Li-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_TIaj9bi-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TIaj9ri-Eem7M4w2QGGPcw" name="y">
+        <modelElement href="BugWorldNat.uml#_TBrCs7i-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TIaj97i-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_TIaj-Li-Eem7M4w2QGGPcw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TIaj-bi-Eem7M4w2QGGPcw" name="im">
+        <modelElement href="BugWorldNat.uml#_TBrCtLi-Eem7M4w2QGGPcw"/>
+        <cardinality xmi:id="_TIaj-ri-Eem7M4w2QGGPcw" label="1" max="1" min="1"/>
+        <type xmi:id="_TIaj-7i-Eem7M4w2QGGPcw" name="Image">
+          <modelElement href="BugWorldNat.uml#_TA60wLi-Eem7M4w2QGGPcw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

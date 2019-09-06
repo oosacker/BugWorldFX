@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_SvS5QLi-Eem7M4w2QGGPcw" name="BugWorldNat">
+    <eAnnotations xmi:id="_S0PqsLi-Eem7M4w2QGGPcw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_S0Rf4Li-Eem7M4w2QGGPcw" source="codegen">
+        <details xmi:id="_S0Rf4bi-Eem7M4w2QGGPcw" key="codegenDirectory" value="/BugWorldNat"/>
+        <details xmi:id="_TGEagLi-Eem7M4w2QGGPcw" key="AssociatedSourceCode" value="/BugWorldNat/Bug.java;1191850409/1;/BugWorldNat/Graphics.java;3273073708/1;/BugWorldNat/Item.java;2358591236/1;/BugWorldNat/Obstacle.java;609872470/1;/BugWorldNat/Plant.java;1066163250/1;/BugWorldNat/World.java;958748374/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_S-GxULi-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_S-GxUbi-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_S-GxUri-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_S-GxU7i-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_S-HYYLi-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_S-HYYbi-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_S-HYYri-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_S-HYY7i-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_S-HYZLi-Eem7M4w2QGGPcw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_S-H_cLi-Eem7M4w2QGGPcw" name="javafx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_S-ImgLi-Eem7M4w2QGGPcw" name="scene">
+        <packagedElement xmi:type="uml:Package" xmi:id="_S-Imgbi-Eem7M4w2QGGPcw" name="image">
+          <packagedElement xmi:type="uml:Class" xmi:id="_TA60wLi-Eem7M4w2QGGPcw" name="Image"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_TBI3M7i-Eem7M4w2QGGPcw" name="ImageView"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_S-QiUri-Eem7M4w2QGGPcw" name="control">
+          <packagedElement xmi:type="uml:Class" xmi:id="_TBI3Mbi-Eem7M4w2QGGPcw" name="Button"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_S-QiU7i-Eem7M4w2QGGPcw" name="layout">
+          <packagedElement xmi:type="uml:Class" xmi:id="_TBJeQbi-Eem7M4w2QGGPcw" name="Background"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_TBKFUbi-Eem7M4w2QGGPcw" name="BackgroundImage"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_TBKFU7i-Eem7M4w2QGGPcw" name="HBox"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_TBKsYbi-Eem7M4w2QGGPcw" name="VBox"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_S-QiVLi-Eem7M4w2QGGPcw" name="paint">
+          <packagedElement xmi:type="uml:Class" xmi:id="_TBLTcbi-Eem7M4w2QGGPcw" name="Color"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_S-bhcLi-Eem7M4w2QGGPcw" name="shape">
+          <packagedElement xmi:type="uml:Class" xmi:id="_TBTPQLi-Eem7M4w2QGGPcw" name="Circle"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TA-fI7i-Eem7M4w2QGGPcw" name="Group"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TA_GMbi-Eem7M4w2QGGPcw" name="Scene"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_S-P7Qri-Eem7M4w2QGGPcw" name="animation">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TA9RAbi-Eem7M4w2QGGPcw" name="KeyFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TA94ELi-Eem7M4w2QGGPcw" name="TimelineBuilder"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_S-QiULi-Eem7M4w2QGGPcw" name="application">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TA94Eri-Eem7M4w2QGGPcw" name="Application"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_S-QiUbi-Eem7M4w2QGGPcw" name="geometry">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_TA-fIbi-Eem7M4w2QGGPcw" name="Pos"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TBXgsLi-Eem7M4w2QGGPcw" name="Bounds"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_S-RJYLi-Eem7M4w2QGGPcw" name="stage">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TBL6gLi-Eem7M4w2QGGPcw" name="Stage"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_S-RJYbi-Eem7M4w2QGGPcw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TBL6gri-Eem7M4w2QGGPcw" name="Duration"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_S-P7QLi-Eem7M4w2QGGPcw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_S-P7Qbi-Eem7M4w2QGGPcw" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_TA8p8Li-Eem7M4w2QGGPcw" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TBW5oLi-Eem7M4w2QGGPcw" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_TBjG4Li-Eem7M4w2QGGPcw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TBjG4bi-Eem7M4w2QGGPcw" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S_BXULi-Eem7M4w2QGGPcw" name="Bug">
+      <ownedComment xmi:id="_TCI8wLi-Eem7M4w2QGGPcw">
+        <body>&#xD;
+@author Natsuki Hasegawa&#xD;
+@version 1.0&#xD;
+@since 2019-08-05&#xD;
+ *</body>
+      </ownedComment>
+      <generalization xmi:id="_TA7b0Li-Eem7M4w2QGGPcw" general="_S_U5ULi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TByXcLi-Eem7M4w2QGGPcw" name="species">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TByXcbi-Eem7M4w2QGGPcw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TBy-gLi-Eem7M4w2QGGPcw" name="ID" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TBy-gbi-Eem7M4w2QGGPcw" value="0"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TBy-gri-Eem7M4w2QGGPcw" name="bugNum" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TBy-hLi-Eem7M4w2QGGPcw" value="0"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB0Mobi-Eem7M4w2QGGPcw" name="step" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB0Mori-Eem7M4w2QGGPcw" value="2"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB0zsbi-Eem7M4w2QGGPcw" name="size" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCC2Iri-Eem7M4w2QGGPcw" name="Bug" specification="_TBe1cLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCC2I7i-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCC2JLi-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCC2Jbi-Eem7M4w2QGGPcw" name="im" type="_TA60wLi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TCC2Jri-Eem7M4w2QGGPcw" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCC2J7i-Eem7M4w2QGGPcw" type="_S_BXULi-Eem7M4w2QGGPcw" direction="return"/>
+        <language>java</language>
+        <body>super(&quot;Bug&quot;, x, y, im);&#xD;
+		this.species = &quot;Bug&quot;;&#xD;
+		this.ID = bugNum++;&#xD;
+		this.size = size;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCC2KLi-Eem7M4w2QGGPcw" name="getStep" specification="_S_DMgLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCC2Kbi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return Bug.step;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCDdMLi-Eem7M4w2QGGPcw" name="Move" specification="_S_Dzkbi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCDdMbi-Eem7M4w2QGGPcw" name="dir">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// The coordinates in array space are NOT the same as on screen!!!!!&#xD;
+		// Must use getTranslateY() or will go off screen!!!!&#xD;
+		if (&quot;N&quot;.equals(dir)) {&#xD;
+			//this.setTranslateY(this.getTranslateY() - step);&#xD;
+			this.getIcon().setTranslateY(this.getIcon().getTranslateY() - step);&#xD;
+		}&#xD;
+		if (&quot;S&quot;.equals(dir)) {&#xD;
+			//this.setTranslateY(this.getTranslateY() + step);&#xD;
+			this.getIcon().setTranslateY(this.getIcon().getTranslateY() + step);&#xD;
+		}&#xD;
+		if (&quot;E&quot;.equals(dir)) {&#xD;
+			//this.setTranslateX(this.getTranslateX() + step);&#xD;
+			this.getIcon().setTranslateX(this.getIcon().getTranslateX() + step);&#xD;
+		}&#xD;
+		if (&quot;W&quot;.equals(dir)) {&#xD;
+			//this.setTranslateX(this.getTranslateX() - step);&#xD;
+			this.getIcon().setTranslateX(this.getIcon().getTranslateX() - step);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCDdMri-Eem7M4w2QGGPcw" name="grow" specification="_S_EaoLi-Eem7M4w2QGGPcw">
+        <language>java</language>
+        <body>double sx = this.getIcon().getScaleX();&#xD;
+		double sy = this.getIcon().getScaleY();&#xD;
+		&#xD;
+		if(size == 10) {&#xD;
+			size = 0;&#xD;
+			this.getIcon().setScaleX(0);&#xD;
+			this.getIcon().setScaleY(0);&#xD;
+		}&#xD;
+		else {&#xD;
+			this.size++;&#xD;
+			this.getIcon().setScaleX(sx+0.1);&#xD;
+			this.getIcon().setScaleY(sy+0.1);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_S_DMgLi-Eem7M4w2QGGPcw" name="getStep" method="_TCC2KLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_S_DzkLi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_Dzkbi-Eem7M4w2QGGPcw" name="Move" method="_TCDdMLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_S_Dzkri-Eem7M4w2QGGPcw" name="dir">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_EaoLi-Eem7M4w2QGGPcw" name="grow" visibility="package" method="_TCDdMri-Eem7M4w2QGGPcw"/>
+      <ownedOperation xmi:id="_TBe1cLi-Eem7M4w2QGGPcw" name="Bug" method="_TCC2Iri-Eem7M4w2QGGPcw">
+        <eAnnotations xmi:id="_TBfcg7i-Eem7M4w2QGGPcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_TBfchLi-Eem7M4w2QGGPcw" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_TCI8wbi-Eem7M4w2QGGPcw">
+          <body>&#xD;
+	 * @param x&#xD;
+	 * @param y&#xD;
+	 * @param im&#xD;
+	 * @param size</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_TBe1cbi-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBfcgLi-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBfcgbi-Eem7M4w2QGGPcw" name="im" type="_TA60wLi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TBfcgri-Eem7M4w2QGGPcw" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBfchbi-Eem7M4w2QGGPcw" type="_S_BXULi-Eem7M4w2QGGPcw" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S_G24Li-Eem7M4w2QGGPcw" name="Graphics">
+      <generalization xmi:id="_TBk8Eri-Eem7M4w2QGGPcw" general="_TA94Eri-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB1awLi-Eem7M4w2QGGPcw" name="w" visibility="package" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCPDYLi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB2B0Li-Eem7M4w2QGGPcw" name="b" visibility="package" type="_S_BXULi-Eem7M4w2QGGPcw" association="_TCPqcbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB2B0bi-Eem7M4w2QGGPcw" name="o" visibility="package" type="_S_X8oLi-Eem7M4w2QGGPcw" association="_TCQRgbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB2B0ri-Eem7M4w2QGGPcw" name="p" visibility="package" type="_S_ZKwLi-Eem7M4w2QGGPcw" association="_TCQ4kbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB2o4Li-Eem7M4w2QGGPcw" name="items" visibility="package" type="_S_U5ULi-Eem7M4w2QGGPcw" isOrdered="true" association="_TCQ4lLi-Eem7M4w2QGGPcw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TB2o4bi-Eem7M4w2QGGPcw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB2o4ri-Eem7M4w2QGGPcw" name="bugColor" visibility="package" type="_TBLTcbi-Eem7M4w2QGGPcw" association="_TCRfobi-Eem7M4w2QGGPcw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB2o47i-Eem7M4w2QGGPcw" value="Color.RED"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB3P8Li-Eem7M4w2QGGPcw" name="obsColor" visibility="package" type="_TBLTcbi-Eem7M4w2QGGPcw" association="_TCSGsbi-Eem7M4w2QGGPcw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB3P8bi-Eem7M4w2QGGPcw" value="Color.BLACK"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB3P8ri-Eem7M4w2QGGPcw" name="plantColor" visibility="package" type="_TBLTcbi-Eem7M4w2QGGPcw" association="_TCSGtLi-Eem7M4w2QGGPcw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB3P87i-Eem7M4w2QGGPcw" value="Color.GREEN"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB33ALi-Eem7M4w2QGGPcw" name="frame" visibility="package" type="_TA9RAbi-Eem7M4w2QGGPcw" association="_TCStwbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB33Abi-Eem7M4w2QGGPcw" name="scene" visibility="package" type="_TA_GMbi-Eem7M4w2QGGPcw" association="_TCTU0bi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB33Ari-Eem7M4w2QGGPcw" name="root" visibility="package" type="_TA-fI7i-Eem7M4w2QGGPcw" association="_TCTU1Li-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB4eELi-Eem7M4w2QGGPcw" name="myImg" visibility="package" type="_TA60wLi-Eem7M4w2QGGPcw" association="_TCT74bi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB4eEbi-Eem7M4w2QGGPcw" name="bgi" visibility="package" type="_TBKFUbi-Eem7M4w2QGGPcw" association="_TCUi8bi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB4eEri-Eem7M4w2QGGPcw" name="bg" visibility="package" type="_TBJeQbi-Eem7M4w2QGGPcw" association="_TCUi9Li-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB5FILi-Eem7M4w2QGGPcw" name="box" visibility="package" type="_TBKsYbi-Eem7M4w2QGGPcw" association="_TCVKAbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB5FIbi-Eem7M4w2QGGPcw" name="hb" visibility="package" type="_TBKFU7i-Eem7M4w2QGGPcw" association="_TCVxEbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB5sMLi-Eem7M4w2QGGPcw" name="bugBtn" visibility="package" type="_TBI3Mbi-Eem7M4w2QGGPcw" association="_TCWYIbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB6TQLi-Eem7M4w2QGGPcw" name="width" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB66ULi-Eem7M4w2QGGPcw" name="x" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB7hYLi-Eem7M4w2QGGPcw" name="img" visibility="package" type="_TBI3M7i-Eem7M4w2QGGPcw" association="_TCWYJLi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TCJj0Li-Eem7M4w2QGGPcw" name="plBtn" visibility="package" type="_TBI3Mbi-Eem7M4w2QGGPcw" association="_TCaplLi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TCJj0ri-Eem7M4w2QGGPcw" name="obsBtn" visibility="package" type="_TBI3Mbi-Eem7M4w2QGGPcw" association="_TCbQobi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TCKK4Li-Eem7M4w2QGGPcw" name="grPlBtn" visibility="package" type="_TBI3Mbi-Eem7M4w2QGGPcw" association="_TCb3sbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TCKK4ri-Eem7M4w2QGGPcw" name="grBugBtn" visibility="package" type="_TBI3Mbi-Eem7M4w2QGGPcw" association="_TCcewbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TCKx8Li-Eem7M4w2QGGPcw" name="height" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TCKx8ri-Eem7M4w2QGGPcw" name="y" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCEEQLi-Eem7M4w2QGGPcw" name="start" specification="_TBjt8bi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCEEQbi-Eem7M4w2QGGPcw" name="primaryStage" type="_TBL6gLi-Eem7M4w2QGGPcw"/>
+        <language>java</language>
+        <body>w = new World();&#xD;
+		width = w.getWidth();&#xD;
+		height= w.getHeight();&#xD;
+		&#xD;
+		primaryStage.setTitle(&quot;Bug World FX by Natsuki&quot;);&#xD;
+		root = new Group(); &#xD;
+		&#xD;
+		updateItems();&#xD;
+		&#xD;
+		myImg = new Image(&quot;ground.png&quot;, width, height, false, false);&#xD;
+		bgi = new BackgroundImage(myImg, null, null, null, null);&#xD;
+		bg = new Background(bgi);&#xD;
+		&#xD;
+		bugBtn = new Button(&quot;Add bug&quot;);&#xD;
+		plBtn = new Button(&quot;Add plant&quot;);&#xD;
+		obsBtn = new Button(&quot;Add obstacle&quot;);&#xD;
+		grPlBtn = new Button(&quot;Grow plant&quot;);&#xD;
+		grBugBtn = new Button(&quot;Grow bug&quot;);&#xD;
+		&#xD;
+		// HBox for the buttons&#xD;
+		hb = new HBox();&#xD;
+		hb.setSpacing(10);&#xD;
+		hb.getChildren().addAll(bugBtn, plBtn, obsBtn, grPlBtn, grBugBtn);&#xD;
+		hb.setAlignment(Pos.CENTER);&#xD;
+		&#xD;
+		// Needed because you cannot place backgrounds on a scene&#xD;
+		box = new VBox();&#xD;
+		box.getChildren().addAll(hb, root);&#xD;
+		box.setBackground(bg);&#xD;
+		&#xD;
+		scene = new Scene(box, width, height);	&#xD;
+		&#xD;
+		frame = new KeyFrame(Duration.millis(90), e-> {&#xD;
+&#xD;
+			w.moveAllBugs(scene);&#xD;
+			&#xD;
+		});&#xD;
+&#xD;
+		TimelineBuilder.create().cycleCount(javafx.animation.Animation.INDEFINITE).keyFrames(frame).build().play();&#xD;
+&#xD;
+		primaryStage.setScene(scene);&#xD;
+		primaryStage.sizeToScene();&#xD;
+		primaryStage.getIcons().add(new Image(&quot;file:bugicon.png&quot;));&#xD;
+		primaryStage.show();&#xD;
+		&#xD;
+		/**&#xD;
+		 * Button event handling&#xD;
+		 */&#xD;
+		bugBtn.setOnAction(e->{&#xD;
+			w.addBug(1);&#xD;
+			updateItems();&#xD;
+		});&#xD;
+		&#xD;
+		plBtn.setOnAction(e->{&#xD;
+			w.addPlant(1);&#xD;
+			updateItems();&#xD;
+		});&#xD;
+		&#xD;
+		obsBtn.setOnAction(e->{&#xD;
+			w.addObstacle(1);&#xD;
+			updateItems();&#xD;
+		});&#xD;
+		&#xD;
+		grPlBtn.setOnAction(e->{&#xD;
+			w.growPlants();&#xD;
+		});&#xD;
+		&#xD;
+		grBugBtn.setOnAction(e->{&#xD;
+			w.growBugs();&#xD;
+		});&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCEEQri-Eem7M4w2QGGPcw" name="updateItems" specification="_S_J6MLi-Eem7M4w2QGGPcw">
+        <language>java</language>
+        <body>items = w.getItems();&#xD;
+		&#xD;
+		// Must clear the old list&#xD;
+		root.getChildren().clear();&#xD;
+		&#xD;
+		for(Item item : items) {&#xD;
+			&#xD;
+			if(item instanceof Bug) {&#xD;
+				b = (Bug)item;&#xD;
+				img = b.getIcon();&#xD;
+			}&#xD;
+			&#xD;
+			if(item instanceof Plant) {&#xD;
+				p = (Plant)item;&#xD;
+				img = p.getIcon();&#xD;
+			}&#xD;
+			&#xD;
+			if(item instanceof Obstacle) {&#xD;
+				o = (Obstacle)item;&#xD;
+				img = o.getIcon();&#xD;
+			}		&#xD;
+			&#xD;
+			root.getChildren().add(img);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCEEQ7i-Eem7M4w2QGGPcw" name="main" specification="_S_KhQbi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCEERLi-Eem7M4w2QGGPcw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TCEERbi-Eem7M4w2QGGPcw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>launch(args);&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_S_J6MLi-Eem7M4w2QGGPcw" name="updateItems" method="_TCEEQri-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCKx9Li-Eem7M4w2QGGPcw">
+          <body>Get new list of items (bug, obstacle, plant) from the world</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_KhQbi-Eem7M4w2QGGPcw" name="main" isStatic="true" method="_TCEEQ7i-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_S_KhQri-Eem7M4w2QGGPcw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S_LIUbi-Eem7M4w2QGGPcw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TBjt8bi-Eem7M4w2QGGPcw" name="start" method="_TCEEQLi-Eem7M4w2QGGPcw" raisedException="_TBjG4bi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TBjt8ri-Eem7M4w2QGGPcw" name="primaryStage" type="_TBL6gLi-Eem7M4w2QGGPcw"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S_U5ULi-Eem7M4w2QGGPcw" name="Item">
+      <ownedComment xmi:id="_TCLZALi-Eem7M4w2QGGPcw">
+        <body>&#xD;
+@author Natsuki Hasegawa &lt;haseganats@myvuw.ac.nz>&#xD;
+@version 1.0&#xD;
+@since 1.0&#xD;
+ *</body>
+      </ownedComment>
+      <generalization xmi:id="_TBpNhri-Eem7M4w2QGGPcw" general="_TBTPQLi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB8vgLi-Eem7M4w2QGGPcw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB8vgbi-Eem7M4w2QGGPcw" name="icon" type="_TBI3M7i-Eem7M4w2QGGPcw" isReadOnly="true" association="_TCW_Mbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB8vgri-Eem7M4w2QGGPcw" name="circleSize" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB8vg7i-Eem7M4w2QGGPcw" value="5"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCErULi-Eem7M4w2QGGPcw" name="Item" specification="_TBomcLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCErUbi-Eem7M4w2QGGPcw" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCErUri-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCErU7i-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCErVLi-Eem7M4w2QGGPcw" name="im" type="_TA60wLi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TCErVbi-Eem7M4w2QGGPcw" type="_S_U5ULi-Eem7M4w2QGGPcw" direction="return"/>
+        <language>java</language>
+        <body>super(x, y, circleSize);&#xD;
+		this.name = name;&#xD;
+		this.icon = new ImageView(im);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCFSYLi-Eem7M4w2QGGPcw" name="getX" specification="_S_WHcLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCFSYbi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (int) this.getCenterX();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCFSYri-Eem7M4w2QGGPcw" name="getY" specification="_S_WugLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCFSY7i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (int) this.getCenterY();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_S_WHcLi-Eem7M4w2QGGPcw" name="getX" method="_TCFSYLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_S_WHcbi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_WugLi-Eem7M4w2QGGPcw" name="getY" method="_TCFSYri-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_S_Wugbi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TBomcLi-Eem7M4w2QGGPcw" name="Item" method="_TCErULi-Eem7M4w2QGGPcw">
+        <eAnnotations xmi:id="_TBpNg7i-Eem7M4w2QGGPcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_TBpNhLi-Eem7M4w2QGGPcw" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_TCLZAbi-Eem7M4w2QGGPcw">
+          <body>&#xD;
+	 * @param name&#xD;
+	 * @param x&#xD;
+	 * @param y&#xD;
+	 * @param im</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_TBomcbi-Eem7M4w2QGGPcw" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBpNgLi-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBpNgbi-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBpNgri-Eem7M4w2QGGPcw" name="im" type="_TA60wLi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TBpNhbi-Eem7M4w2QGGPcw" type="_S_U5ULi-Eem7M4w2QGGPcw" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S_X8oLi-Eem7M4w2QGGPcw" name="Obstacle">
+      <generalization xmi:id="_TBVEcLi-Eem7M4w2QGGPcw" general="_S_U5ULi-Eem7M4w2QGGPcw"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCFSZLi-Eem7M4w2QGGPcw" name="Obstacle" specification="_TBqboLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCFSZbi-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCFSZri-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCFSZ7i-Eem7M4w2QGGPcw" name="im" type="_TA60wLi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TCFSaLi-Eem7M4w2QGGPcw" type="_S_X8oLi-Eem7M4w2QGGPcw" direction="return"/>
+        <language>java</language>
+        <body>super(&quot;Obstacle&quot;, x, y, im);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_TBqboLi-Eem7M4w2QGGPcw" name="Obstacle" method="_TCFSZLi-Eem7M4w2QGGPcw">
+        <eAnnotations xmi:id="_TBqbpLi-Eem7M4w2QGGPcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_TBqbpbi-Eem7M4w2QGGPcw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_TBqbobi-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBqbori-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBqbo7i-Eem7M4w2QGGPcw" name="im" type="_TA60wLi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TBqbpri-Eem7M4w2QGGPcw" type="_S_X8oLi-Eem7M4w2QGGPcw" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S_ZKwLi-Eem7M4w2QGGPcw" name="Plant">
+      <generalization xmi:id="_TBVrgLi-Eem7M4w2QGGPcw" general="_S_U5ULi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB9Wkbi-Eem7M4w2QGGPcw" name="size" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCF5cLi-Eem7M4w2QGGPcw" name="Plant" specification="_TBrCsLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCF5cbi-Eem7M4w2QGGPcw" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCF5cri-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCF5c7i-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCF5dLi-Eem7M4w2QGGPcw" name="im" type="_TA60wLi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TCF5dbi-Eem7M4w2QGGPcw" type="_S_ZKwLi-Eem7M4w2QGGPcw" direction="return"/>
+        <language>java</language>
+        <body>super(&quot;Plant&quot;, x, y, im);&#xD;
+		this.size = size;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCF5dri-Eem7M4w2QGGPcw" name="grow" specification="_S_Zx0Li-Eem7M4w2QGGPcw">
+        <language>java</language>
+        <body>double sx = this.getIcon().getScaleX();&#xD;
+		double sy = this.getIcon().getScaleY();&#xD;
+		&#xD;
+		// At certain point go back to zero (death)&#xD;
+		if(size == 10) {&#xD;
+			size = 0;&#xD;
+			this.getIcon().setScaleX(0);&#xD;
+			this.getIcon().setScaleY(0);&#xD;
+		}&#xD;
+		else {&#xD;
+			this.size++;&#xD;
+			this.getIcon().setScaleX(sx+0.1);&#xD;
+			this.getIcon().setScaleY(sy+0.1);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_S_Zx0Li-Eem7M4w2QGGPcw" name="grow" visibility="package" method="_TCF5dri-Eem7M4w2QGGPcw"/>
+      <ownedOperation xmi:id="_TBrCsLi-Eem7M4w2QGGPcw" name="Plant" method="_TCF5cLi-Eem7M4w2QGGPcw">
+        <eAnnotations xmi:id="_TBrCtbi-Eem7M4w2QGGPcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_TBrpwLi-Eem7M4w2QGGPcw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_TBrCsbi-Eem7M4w2QGGPcw" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBrCsri-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBrCs7i-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TBrCtLi-Eem7M4w2QGGPcw" name="im" type="_TA60wLi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TBrpwbi-Eem7M4w2QGGPcw" type="_S_ZKwLi-Eem7M4w2QGGPcw" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S_a_8Li-Eem7M4w2QGGPcw" name="World">
+      <ownedComment xmi:id="_TCLZAri-Eem7M4w2QGGPcw">
+        <body>&#xD;
+@author Natsuki Hasegawa &lt;haseganats@myvuw.ac.nz>&#xD;
+@version 1.0&#xD;
+@since 1.0&#xD;
+ *</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_TB99oLi-Eem7M4w2QGGPcw" name="width" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB99obi-Eem7M4w2QGGPcw" value="1200"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB99o7i-Eem7M4w2QGGPcw" name="height" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB99pLi-Eem7M4w2QGGPcw" value="720"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB-ksbi-Eem7M4w2QGGPcw" name="stone" visibility="private" type="_TA60wLi-Eem7M4w2QGGPcw" association="_TCXmQbi-Eem7M4w2QGGPcw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB-ksri-Eem7M4w2QGGPcw" value="new Image(&quot;stone.png&quot;, 25, 25, true, true)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB-ktLi-Eem7M4w2QGGPcw" name="bug" visibility="private" type="_TA60wLi-Eem7M4w2QGGPcw" association="_TCYNUbi-Eem7M4w2QGGPcw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB-ktbi-Eem7M4w2QGGPcw" value="new Image(&quot;bug.png&quot;, 25, 25, true, true)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB_Lwbi-Eem7M4w2QGGPcw" name="plant" visibility="private" type="_TA60wLi-Eem7M4w2QGGPcw" association="_TCYNVLi-Eem7M4w2QGGPcw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TB_Lwri-Eem7M4w2QGGPcw" value="new Image(&quot;plant.png&quot;, 25, 25, true, true)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TB_LxLi-Eem7M4w2QGGPcw" name="myBug" visibility="package" type="_S_BXULi-Eem7M4w2QGGPcw" association="_TCY0Ybi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB_y0bi-Eem7M4w2QGGPcw" name="myPlant" visibility="package" type="_S_ZKwLi-Eem7M4w2QGGPcw" association="_TCZbcbi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TB_y07i-Eem7M4w2QGGPcw" name="myObs" visibility="package" type="_S_X8oLi-Eem7M4w2QGGPcw" association="_TCZbdLi-Eem7M4w2QGGPcw"/>
+      <ownedAttribute xmi:id="_TCAZ4bi-Eem7M4w2QGGPcw" name="items" visibility="package" type="_TBW5oLi-Eem7M4w2QGGPcw" association="_TCaCgbi-Eem7M4w2QGGPcw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_TCBA8bi-Eem7M4w2QGGPcw" value="new ArrayList&lt;Item>()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TCBA87i-Eem7M4w2QGGPcw" name="myscene" visibility="package" type="_TA_GMbi-Eem7M4w2QGGPcw" association="_TCapkbi-Eem7M4w2QGGPcw"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCF5d7i-Eem7M4w2QGGPcw" name="World" specification="_S_cOELi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCF5eLi-Eem7M4w2QGGPcw" type="_S_a_8Li-Eem7M4w2QGGPcw" direction="return"/>
+        <language>java</language>
+        <body>addPlant(100);&#xD;
+		addObstacle(100);&#xD;
+		addBug(5);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCF5ebi-Eem7M4w2QGGPcw" name="addBug" specification="_S_cOFLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCF5eri-Eem7M4w2QGGPcw" name="bugNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int temp = 0;&#xD;
+&#xD;
+		while(temp &lt; bugNum) {&#xD;
+			int randX = randomX();&#xD;
+			int randY = randomY();&#xD;
+&#xD;
+			myBug = new Bug(randX, randY, bug, randomSize());&#xD;
+&#xD;
+			if(isValidPoint(randX, randY)) {&#xD;
+				myBug.getIcon().setX(myBug.getX());&#xD;
+				myBug.getIcon().setY(myBug.getY());&#xD;
+				items.add(myBug);&#xD;
+				temp++;&#xD;
+			}&#xD;
+			else {&#xD;
+				//System.out.println(&quot;reject bug&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCF5e7i-Eem7M4w2QGGPcw" name="addPlant" specification="_S_c1ILi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCF5fLi-Eem7M4w2QGGPcw" name="plNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int temp = 0;&#xD;
+&#xD;
+		while(temp &lt; plNum) {&#xD;
+			int randX = randomX();&#xD;
+			int randY = randomY();&#xD;
+&#xD;
+			myPlant = new Plant(randomSize(), randX, randY, plant);&#xD;
+&#xD;
+			if(isValidPoint(randX, randY)) {&#xD;
+				myPlant.getIcon().setX(myPlant.getX());&#xD;
+				myPlant.getIcon().setY(myPlant.getY());	&#xD;
+				items.add(myPlant);&#xD;
+				temp++;&#xD;
+			}&#xD;
+			else {&#xD;
+				//System.out.println(&quot;reject obstacle&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCGggLi-Eem7M4w2QGGPcw" name="addObstacle" specification="_S_c1Iri-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCGggbi-Eem7M4w2QGGPcw" name="obsNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int temp = 0;&#xD;
+&#xD;
+		while(temp &lt; obsNum) {&#xD;
+			int randX = randomX();&#xD;
+			int randY = randomY();&#xD;
+&#xD;
+			myObs = new Obstacle(randX, randY, stone);&#xD;
+&#xD;
+			if(isValidPoint(randX, randY)) {&#xD;
+				myObs.getIcon().setX(myObs.getX());&#xD;
+				myObs.getIcon().setY(myObs.getY());&#xD;
+				items.add(myObs);&#xD;
+				temp++;&#xD;
+			}&#xD;
+			//System.out.println(&quot;reject obstacle&quot;);&#xD;
+&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCGggri-Eem7M4w2QGGPcw" name="randomX" specification="_S_c1JLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCGgg7i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int x = (int)((width-10) * Math.random() + 1);&#xD;
+		return x;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCGghLi-Eem7M4w2QGGPcw" name="randomY" specification="_S_dcMbi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCGghbi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int y = (int)((height-10) * Math.random() + 1);&#xD;
+		return y;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCGghri-Eem7M4w2QGGPcw" name="randomSize" specification="_S_dcM7i-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCGgh7i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (int)((10-1) * Math.random() + 1);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCGgiLi-Eem7M4w2QGGPcw" name="isInWindow" specification="_TBs34Li-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCGgibi-Eem7M4w2QGGPcw" name="myitem" type="_S_U5ULi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TCGgiri-Eem7M4w2QGGPcw" name="myscene" type="_TA_GMbi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TCGgi7i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Bounds bounds =  myitem.getBoundsInParent();&#xD;
+		double sceneWidth = myscene.getWidth();&#xD;
+		double sceneHeight = myscene.getHeight();&#xD;
+&#xD;
+		if (( bounds.getMinX() &lt; 0 || bounds.getMaxX() > sceneWidth) ||&#xD;
+				(bounds.getMinY() &lt; 0 || bounds.getMaxY() > sceneHeight)) {&#xD;
+			return false;&#xD;
+		}&#xD;
+&#xD;
+		else {&#xD;
+			return true;&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHHkLi-Eem7M4w2QGGPcw" name="isValidPoint" specification="_S_eDQLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCHHkbi-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCHHkri-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TCHHk7i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// check if x and y is not filled or outside world space&#xD;
+		if ( (x > width) || (y > height) ) {&#xD;
+			return false;&#xD;
+		}&#xD;
+&#xD;
+		for (Item myItem : items) {&#xD;
+			if ( ((x == myItem.getX()) &amp;&amp; (y == myItem.getY())) ) {&#xD;
+				return false;&#xD;
+			}&#xD;
+		}&#xD;
+		return true;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHHlLi-Eem7M4w2QGGPcw" name="adjacentItems" specification="_TBYu0Li-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCHHlbi-Eem7M4w2QGGPcw" name="b" type="_S_BXULi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TCHHlri-Eem7M4w2QGGPcw" type="_S_U5ULi-Eem7M4w2QGGPcw" isOrdered="true" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TCHHl7i-Eem7M4w2QGGPcw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>List&lt;Item> ret = new ArrayList&lt;Item>();&#xD;
+&#xD;
+		int bug_x = b.getX();&#xD;
+		int bug_y = b.getY();&#xD;
+&#xD;
+		if(items == null)&#xD;
+			return null;&#xD;
+&#xD;
+		for(Item o : items) {&#xD;
+&#xD;
+			int item_x = o.getX();&#xD;
+			int item_y = o.getY();&#xD;
+&#xD;
+			if ( &#xD;
+					((bug_x == item_x) &amp;&amp; (bug_y+1 == item_y)) ||&#xD;
+					((bug_x == item_x) &amp;&amp; (bug_y-1== item_y)) ||&#xD;
+					((bug_x+1 == item_x) &amp;&amp; (bug_y == item_y)) ||&#xD;
+					((bug_x-1 == item_x) &amp;&amp; (bug_y == item_y)) ) &#xD;
+			{&#xD;
+&#xD;
+				ret.add(o);&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		return ret;	&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHHmLi-Eem7M4w2QGGPcw" name="growPlants" specification="_S_eqULi-Eem7M4w2QGGPcw">
+        <language>java</language>
+        <body>Plant pl;&#xD;
+&#xD;
+		if(items.isEmpty())&#xD;
+			return;&#xD;
+&#xD;
+		for(Item it : items) {&#xD;
+&#xD;
+			if(it instanceof Plant) {&#xD;
+				pl = (Plant)it;&#xD;
+				pl.grow();&#xD;
+			}	&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHHmbi-Eem7M4w2QGGPcw" name="growBugs" specification="_S_eqUbi-Eem7M4w2QGGPcw">
+        <language>java</language>
+        <body>Bug b;&#xD;
+&#xD;
+		if(items.isEmpty())&#xD;
+			return;&#xD;
+&#xD;
+		for(Item it : items) {&#xD;
+&#xD;
+			if(it instanceof Bug) {&#xD;
+				b = (Bug)it;&#xD;
+				b.grow();&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHHmri-Eem7M4w2QGGPcw" name="moveAllBugs" specification="_TBte8Li-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCHHm7i-Eem7M4w2QGGPcw" name="myscene" type="_TA_GMbi-Eem7M4w2QGGPcw"/>
+        <language>java</language>
+        <body>Bug b;&#xD;
+		List&lt;Item> adjacent;&#xD;
+&#xD;
+		if(items.isEmpty())&#xD;
+			return;&#xD;
+&#xD;
+		for(Item item : items) {&#xD;
+&#xD;
+			if(item instanceof Bug) {&#xD;
+&#xD;
+				b = (Bug)item;&#xD;
+				adjacent = adjacentItems(b);&#xD;
+&#xD;
+				if( adjacent.isEmpty() &amp;&amp; isInWindow(b, myscene)) {&#xD;
+&#xD;
+					moveRandom(b, myscene);&#xD;
+&#xD;
+				}&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHHnLi-Eem7M4w2QGGPcw" name="moveRandom" specification="_TBuGALi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCHHnbi-Eem7M4w2QGGPcw" name="b" type="_S_BXULi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TCHHnri-Eem7M4w2QGGPcw" name="myscene" type="_TA_GMbi-Eem7M4w2QGGPcw"/>
+        <language>java</language>
+        <body>double d = Math.random();&#xD;
+		String dir;&#xD;
+&#xD;
+		int currentx = b.getX();&#xD;
+		int currenty = b.getY();&#xD;
+&#xD;
+		if (d &lt; 0.25) { &#xD;
+			dir = &quot;N&quot;;&#xD;
+			if (isValidPoint(currentx, currenty-b.getStep()) ) {&#xD;
+				b.Move(dir);&#xD;
+			}&#xD;
+			else {&#xD;
+				//a.Move(&quot;S&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		else if (d &lt; 0.5) {&#xD;
+			dir = &quot;S&quot;;&#xD;
+			if (isValidPoint(currentx, currenty+b.getStep())) {&#xD;
+				b.Move(dir);&#xD;
+			}&#xD;
+			else {&#xD;
+				//a.Move(&quot;N&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		else if (d &lt; 0.75) {&#xD;
+			dir = &quot;E&quot;;&#xD;
+			if (isValidPoint(currentx+b.getStep(), currenty)) {&#xD;
+				b.Move(dir);&#xD;
+			}&#xD;
+			else {&#xD;
+				//a.Move(&quot;W&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		else {&#xD;
+			dir = &quot;W&quot;;&#xD;
+			if (isValidPoint(currentx-b.getStep(), currenty) ) {&#xD;
+				b.Move(dir);&#xD;
+			}&#xD;
+			else {&#xD;
+				//a.Move(&quot;E&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHuoLi-Eem7M4w2QGGPcw" name="getItems" specification="_S_eqUri-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCHuobi-Eem7M4w2QGGPcw" type="_TBW5oLi-Eem7M4w2QGGPcw" direction="return"/>
+        <language>java</language>
+        <body>return items;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHuori-Eem7M4w2QGGPcw" name="getWidth" specification="_S_f4cLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCHuo7i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return width;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TCHupLi-Eem7M4w2QGGPcw" name="getHeight" specification="_S_f4cri-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_TCHupbi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return height;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_S_cOELi-Eem7M4w2QGGPcw" name="World" method="_TCF5d7i-Eem7M4w2QGGPcw">
+        <eAnnotations xmi:id="_S_cOEbi-Eem7M4w2QGGPcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_S_cOEri-Eem7M4w2QGGPcw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_S_cOE7i-Eem7M4w2QGGPcw" type="_S_a_8Li-Eem7M4w2QGGPcw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_cOFLi-Eem7M4w2QGGPcw" name="addBug" method="_TCF5ebi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAELi-Eem7M4w2QGGPcw">
+          <body>Add specified number of bugs to the world.&#xD;
+	 * &#xD;
+	 * @param bugNum	Number of Bugs to add.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_S_cOFbi-Eem7M4w2QGGPcw" name="bugNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_c1ILi-Eem7M4w2QGGPcw" name="addPlant" method="_TCF5e7i-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAEbi-Eem7M4w2QGGPcw">
+          <body>Add specified number of Plants to the world.&#xD;
+	 * &#xD;
+	 * @param plNum	Number of Plants to add.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_S_c1Ibi-Eem7M4w2QGGPcw" name="plNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_c1Iri-Eem7M4w2QGGPcw" name="addObstacle" method="_TCGggLi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAEri-Eem7M4w2QGGPcw">
+          <body>Add specified number of Obstacles to the world.&#xD;
+	 * &#xD;
+	 * @param obsNum	Number of Obstacles to add.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_S_c1I7i-Eem7M4w2QGGPcw" name="obsNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_c1JLi-Eem7M4w2QGGPcw" name="randomX" visibility="private" method="_TCGggri-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAE7i-Eem7M4w2QGGPcw">
+          <body>Generate a random integer in x direction which is inside the scene.&#xD;
+&#xD;
+@return 	Returns the randomly generated integer x.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_S_dcMLi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_dcMbi-Eem7M4w2QGGPcw" name="randomY" visibility="private" method="_TCGghLi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAFLi-Eem7M4w2QGGPcw">
+          <body>Generate a random integer in y direction which is inside the scene.&#xD;
+	 * &#xD;
+	 * @return 	Returns the randomly generated integer y.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_S_dcMri-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_dcM7i-Eem7M4w2QGGPcw" name="randomSize" visibility="private" method="_TCGghri-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAFbi-Eem7M4w2QGGPcw">
+          <body>Generate a random integer size between 1 and 10.&#xD;
+	 * &#xD;
+	 * @return 	Returns the randomly generated size.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_S_dcNLi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_eDQLi-Eem7M4w2QGGPcw" name="isValidPoint" visibility="private" method="_TCHHkLi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAF7i-Eem7M4w2QGGPcw">
+          <body>&#xD;
+	 * Checks if current y x and y is a valid point.&#xD;
+	 * &#xD;
+	 * @param x	x coordinate to test.&#xD;
+	 * @param y	y coordinate to test.&#xD;
+	 * @return	Returns true if it is a valid point, false if not.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_S_eDQbi-Eem7M4w2QGGPcw" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_S_eDQri-Eem7M4w2QGGPcw" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_S_eDQ7i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_eqULi-Eem7M4w2QGGPcw" name="growPlants" method="_TCHHmLi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAGbi-Eem7M4w2QGGPcw">
+          <body>Increase the size of all Plants.</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_eqUbi-Eem7M4w2QGGPcw" name="growBugs" method="_TCHHmbi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAGri-Eem7M4w2QGGPcw">
+          <body>Increase the size of all Bugs.</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_eqUri-Eem7M4w2QGGPcw" name="getItems" method="_TCHuoLi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAHbi-Eem7M4w2QGGPcw">
+          <body>Returns the ArrayList of Items in this class.&#xD;
+	 * &#xD;
+	 * @return	The ArrayList of Items.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_TButELi-Eem7M4w2QGGPcw" type="_TBW5oLi-Eem7M4w2QGGPcw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_f4cLi-Eem7M4w2QGGPcw" name="getWidth" method="_TCHuori-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_S_f4cbi-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S_f4cri-Eem7M4w2QGGPcw" name="getHeight" method="_TCHupLi-Eem7M4w2QGGPcw">
+        <ownedParameter xmi:id="_S_f4c7i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TBYu0Li-Eem7M4w2QGGPcw" name="adjacentItems" method="_TCHHlLi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAGLi-Eem7M4w2QGGPcw">
+          <body>Finds all the Items that are next to the current Bug b.&#xD;
+	 * &#xD;
+	 * @param b	Checks if there are any items next to this Bug.&#xD;
+	 * @return	Returns an ArrayList of Items that are next to Bug b.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_TBYu0bi-Eem7M4w2QGGPcw" name="b" type="_S_BXULi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TBZV4Li-Eem7M4w2QGGPcw" type="_S_U5ULi-Eem7M4w2QGGPcw" isOrdered="true" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TBZV4bi-Eem7M4w2QGGPcw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TBs34Li-Eem7M4w2QGGPcw" name="isInWindow" visibility="private" method="_TCGgiLi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAFri-Eem7M4w2QGGPcw">
+          <body>Tests to see if Item myitem is inside the Scene myscene.&#xD;
+&#xD;
+@param myitem	Item object to test.	&#xD;
+@param myscene	Scene object to test.&#xD;
+@return 	Returns true if myitem is inside myscene, false if not.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_TBs34bi-Eem7M4w2QGGPcw" name="myitem" type="_S_U5ULi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TBs34ri-Eem7M4w2QGGPcw" name="myscene" type="_TA_GMbi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TBs347i-Eem7M4w2QGGPcw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TBte8Li-Eem7M4w2QGGPcw" name="moveAllBugs" method="_TCHHmri-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAG7i-Eem7M4w2QGGPcw">
+          <body>&#xD;
+	 * Moves all the Bugs inside the list.&#xD;
+	 * &#xD;
+	 * @param myscene	The Scene object passed from the Graphics class.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_TBte8bi-Eem7M4w2QGGPcw" name="myscene" type="_TA_GMbi-Eem7M4w2QGGPcw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TBuGALi-Eem7M4w2QGGPcw" name="moveRandom" method="_TCHHnLi-Eem7M4w2QGGPcw">
+        <ownedComment xmi:id="_TCMAHLi-Eem7M4w2QGGPcw">
+          <body>&#xD;
+	 * Moves the Bug in a random direction.&#xD;
+	 * &#xD;
+	 * @param b	The Bug object to move.&#xD;
+	 * @param myscene	The Scene object passed from the Graphics class.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_TBuGAbi-Eem7M4w2QGGPcw" name="b" type="_S_BXULi-Eem7M4w2QGGPcw"/>
+        <ownedParameter xmi:id="_TBuGAri-Eem7M4w2QGGPcw" name="myscene" type="_TA_GMbi-Eem7M4w2QGGPcw"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCPDYLi-Eem7M4w2QGGPcw" name="" memberEnd="_TCPDYbi-Eem7M4w2QGGPcw _TB1awLi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCPDYbi-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCPDYLi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCPqcbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCPqcri-Eem7M4w2QGGPcw _TB2B0Li-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCPqcri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCPqcbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCQRgbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCQRgri-Eem7M4w2QGGPcw _TB2B0bi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCQRgri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCQRgbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCQ4kbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCQ4kri-Eem7M4w2QGGPcw _TB2B0ri-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCQ4kri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCQ4kbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCQ4lLi-Eem7M4w2QGGPcw" name="" memberEnd="_TCQ4lbi-Eem7M4w2QGGPcw _TB2o4Li-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCQ4lbi-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCQ4lLi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCRfobi-Eem7M4w2QGGPcw" name="" memberEnd="_TCRfori-Eem7M4w2QGGPcw _TB2o4ri-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCRfori-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCRfobi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCSGsbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCSGsri-Eem7M4w2QGGPcw _TB3P8Li-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCSGsri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCSGsbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCSGtLi-Eem7M4w2QGGPcw" name="" memberEnd="_TCSGtbi-Eem7M4w2QGGPcw _TB3P8ri-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCSGtbi-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCSGtLi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCStwbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCStwri-Eem7M4w2QGGPcw _TB33ALi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCStwri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCStwbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCTU0bi-Eem7M4w2QGGPcw" name="" memberEnd="_TCTU0ri-Eem7M4w2QGGPcw _TB33Abi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCTU0ri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCTU0bi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCTU1Li-Eem7M4w2QGGPcw" name="" memberEnd="_TCTU1bi-Eem7M4w2QGGPcw _TB33Ari-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCTU1bi-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCTU1Li-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCT74bi-Eem7M4w2QGGPcw" name="" memberEnd="_TCT74ri-Eem7M4w2QGGPcw _TB4eELi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCT74ri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCT74bi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCUi8bi-Eem7M4w2QGGPcw" name="" memberEnd="_TCUi8ri-Eem7M4w2QGGPcw _TB4eEbi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCUi8ri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCUi8bi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCUi9Li-Eem7M4w2QGGPcw" name="" memberEnd="_TCUi9bi-Eem7M4w2QGGPcw _TB4eEri-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCUi9bi-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCUi9Li-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCVKAbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCVKAri-Eem7M4w2QGGPcw _TB5FILi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCVKAri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCVKAbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCVxEbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCVxEri-Eem7M4w2QGGPcw _TB5FIbi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCVxEri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCVxEbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCWYIbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCWYIri-Eem7M4w2QGGPcw _TB5sMLi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCWYIri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCWYIbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCWYJLi-Eem7M4w2QGGPcw" name="" memberEnd="_TCWYJbi-Eem7M4w2QGGPcw _TB7hYLi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCWYJbi-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCWYJLi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCW_Mbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCW_Mri-Eem7M4w2QGGPcw _TB8vgbi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCW_Mri-Eem7M4w2QGGPcw" name="" type="_S_U5ULi-Eem7M4w2QGGPcw" association="_TCW_Mbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCXmQbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCXmQri-Eem7M4w2QGGPcw _TB-ksbi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCXmQri-Eem7M4w2QGGPcw" name="" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCXmQbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCYNUbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCYNUri-Eem7M4w2QGGPcw _TB-ktLi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCYNUri-Eem7M4w2QGGPcw" name="" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCYNUbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCYNVLi-Eem7M4w2QGGPcw" name="" memberEnd="_TCYNVbi-Eem7M4w2QGGPcw _TB_Lwbi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCYNVbi-Eem7M4w2QGGPcw" name="" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCYNVLi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCY0Ybi-Eem7M4w2QGGPcw" name="" memberEnd="_TCY0Yri-Eem7M4w2QGGPcw _TB_LxLi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCY0Yri-Eem7M4w2QGGPcw" name="" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCY0Ybi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCZbcbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCZbcri-Eem7M4w2QGGPcw _TB_y0bi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCZbcri-Eem7M4w2QGGPcw" name="" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCZbcbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCZbdLi-Eem7M4w2QGGPcw" name="" memberEnd="_TCZbdbi-Eem7M4w2QGGPcw _TB_y07i-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCZbdbi-Eem7M4w2QGGPcw" name="" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCZbdLi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCaCgbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCaCgri-Eem7M4w2QGGPcw _TCAZ4bi-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCaCgri-Eem7M4w2QGGPcw" name="" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCaCgbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCapkbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCapkri-Eem7M4w2QGGPcw _TCBA87i-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCapkri-Eem7M4w2QGGPcw" name="" type="_S_a_8Li-Eem7M4w2QGGPcw" association="_TCapkbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCaplLi-Eem7M4w2QGGPcw" name="" memberEnd="_TCaplbi-Eem7M4w2QGGPcw _TCJj0Li-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCaplbi-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCaplLi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCbQobi-Eem7M4w2QGGPcw" name="" memberEnd="_TCbQori-Eem7M4w2QGGPcw _TCJj0ri-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCbQori-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCbQobi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCb3sbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCb3sri-Eem7M4w2QGGPcw _TCKK4Li-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCb3sri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCb3sbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TCcewbi-Eem7M4w2QGGPcw" name="" memberEnd="_TCcewri-Eem7M4w2QGGPcw _TCKK4ri-Eem7M4w2QGGPcw">
+      <ownedEnd xmi:id="_TCcewri-Eem7M4w2QGGPcw" name="" type="_S_G24Li-Eem7M4w2QGGPcw" association="_TCcewbi-Eem7M4w2QGGPcw"/>
+    </packagedElement>
+    <profileApplication xmi:id="_S0SG8Li-Eem7M4w2QGGPcw">
+      <eAnnotations xmi:id="_S0SG8bi-Eem7M4w2QGGPcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_S0SuALi-Eem7M4w2QGGPcw" base_Package="_SvS5QLi-Eem7M4w2QGGPcw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_S_Hd8Li-Eem7M4w2QGGPcw" base_Element="_S_G24Li-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:StyledElement xmi:id="_S_KhQLi-Eem7M4w2QGGPcw" base_Element="_S_J6MLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:StyledElement xmi:id="_S_LIULi-Eem7M4w2QGGPcw" base_Element="_S_KhQbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Annotations xmi:id="_S_LvYLi-Eem7M4w2QGGPcw" base_Element="_S_G24Li-Eem7M4w2QGGPcw">
+    <annotations xmi:id="_S_MWcLi-Eem7M4w2QGGPcw" name="SuppressWarnings">
+      <annotationParameters xmi:id="_S_MWcbi-Eem7M4w2QGGPcw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_TCI8wri-Eem7M4w2QGGPcw" value="&quot;deprecation&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_S_fRYLi-Eem7M4w2QGGPcw" genericsValue="Item" base_Element="_S_eqUri-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TA60wbi-Eem7M4w2QGGPcw" base_Element="_TA60wLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TA9RALi-Eem7M4w2QGGPcw" base_Element="_TA8p8Li-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TA9RAri-Eem7M4w2QGGPcw" base_Element="_TA9RAbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TA94Ebi-Eem7M4w2QGGPcw" base_Element="_TA94ELi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TA-fILi-Eem7M4w2QGGPcw" base_Element="_TA94Eri-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TA-fIri-Eem7M4w2QGGPcw" base_Element="_TA-fIbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TA_GMLi-Eem7M4w2QGGPcw" base_Element="_TA-fI7i-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBI3MLi-Eem7M4w2QGGPcw" base_Element="_TA_GMbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBI3Mri-Eem7M4w2QGGPcw" base_Element="_TBI3Mbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBJeQLi-Eem7M4w2QGGPcw" base_Element="_TBI3M7i-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBKFULi-Eem7M4w2QGGPcw" base_Element="_TBJeQbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBKFUri-Eem7M4w2QGGPcw" base_Element="_TBKFUbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBKsYLi-Eem7M4w2QGGPcw" base_Element="_TBKFU7i-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBLTcLi-Eem7M4w2QGGPcw" base_Element="_TBKsYbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBLTcri-Eem7M4w2QGGPcw" base_Element="_TBLTcbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBL6gbi-Eem7M4w2QGGPcw" base_Element="_TBL6gLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBMhkLi-Eem7M4w2QGGPcw" base_Element="_TBL6gri-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBT2ULi-Eem7M4w2QGGPcw" base_Element="_TBTPQLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBW5obi-Eem7M4w2QGGPcw" base_Element="_TBW5oLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBXgsbi-Eem7M4w2QGGPcw" base_Element="_TBXgsLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TBjt8Li-Eem7M4w2QGGPcw" base_Element="_TBjG4bi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Annotations xmi:id="_TBk8ELi-Eem7M4w2QGGPcw" base_Element="_TBjt8bi-Eem7M4w2QGGPcw">
+    <annotations xmi:id="_TBk8Ebi-Eem7M4w2QGGPcw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TBy-g7i-Eem7M4w2QGGPcw" base_Element="_TBy-gri-Eem7M4w2QGGPcw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_TBzlkLi-Eem7M4w2QGGPcw" name="getBugNum" isStatic="true" method="_TCC2ILi-Eem7M4w2QGGPcw">
+      <ownedParameter xmi:id="_TB0MoLi-Eem7M4w2QGGPcw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB0zsLi-Eem7M4w2QGGPcw" base_Element="_TB0Mobi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB0zsri-Eem7M4w2QGGPcw" base_Element="_TB0zsbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TB5sMbi-Eem7M4w2QGGPcw" base_Property="_TB5sMLi-Eem7M4w2QGGPcw" siblings="_TCJj0Li-Eem7M4w2QGGPcw _TCJj0ri-Eem7M4w2QGGPcw _TCKK4Li-Eem7M4w2QGGPcw _TCKK4ri-Eem7M4w2QGGPcw" root="true"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TB6TQbi-Eem7M4w2QGGPcw" base_Property="_TB6TQLi-Eem7M4w2QGGPcw" siblings="_TCKx8Li-Eem7M4w2QGGPcw" root="true"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TB66Ubi-Eem7M4w2QGGPcw" base_Property="_TB66ULi-Eem7M4w2QGGPcw" siblings="_TCKx8ri-Eem7M4w2QGGPcw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB9WkLi-Eem7M4w2QGGPcw" base_Element="_TB8vgri-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB99ori-Eem7M4w2QGGPcw" base_Element="_TB99oLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB-ksLi-Eem7M4w2QGGPcw" base_Element="_TB99o7i-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB-ks7i-Eem7M4w2QGGPcw" base_Element="_TB-ksbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB_LwLi-Eem7M4w2QGGPcw" base_Element="_TB-ktLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB_Lw7i-Eem7M4w2QGGPcw" base_Element="_TB_Lwbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB_y0Li-Eem7M4w2QGGPcw" base_Element="_TB_LxLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TB_y0ri-Eem7M4w2QGGPcw" base_Element="_TB_y0bi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TCAZ4Li-Eem7M4w2QGGPcw" base_Element="_TB_y07i-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Generics xmi:id="_TCBA8Li-Eem7M4w2QGGPcw" genericsValue="Item" base_Element="_TCAZ4bi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TCBA8ri-Eem7M4w2QGGPcw" base_Element="_TCAZ4bi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TCBoALi-Eem7M4w2QGGPcw" base_Element="_TCBA87i-Eem7M4w2QGGPcw"/>
+  <uml:OpaqueBehavior xmi:id="_TCC2ILi-Eem7M4w2QGGPcw" name="getBugNum" specification="_TBzlkLi-Eem7M4w2QGGPcw">
+    <ownedParameter xmi:id="_TCC2Ibi-Eem7M4w2QGGPcw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return bugNum;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TCJj0bi-Eem7M4w2QGGPcw" base_Property="_TCJj0Li-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TCJj07i-Eem7M4w2QGGPcw" base_Property="_TCJj0ri-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TCKK4bi-Eem7M4w2QGGPcw" base_Property="_TCKK4Li-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TCKK47i-Eem7M4w2QGGPcw" base_Property="_TCKK4ri-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TCKx8bi-Eem7M4w2QGGPcw" base_Property="_TCKx8Li-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_TCKx87i-Eem7M4w2QGGPcw" base_Property="_TCKx8ri-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCPqcLi-Eem7M4w2QGGPcw" base_Element="_TCPDYLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCQRgLi-Eem7M4w2QGGPcw" base_Element="_TCPqcbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCQ4kLi-Eem7M4w2QGGPcw" base_Element="_TCQRgbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCQ4k7i-Eem7M4w2QGGPcw" base_Element="_TCQ4kbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCRfoLi-Eem7M4w2QGGPcw" base_Element="_TCQ4lLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCSGsLi-Eem7M4w2QGGPcw" base_Element="_TCRfobi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCSGs7i-Eem7M4w2QGGPcw" base_Element="_TCSGsbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCStwLi-Eem7M4w2QGGPcw" base_Element="_TCSGtLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCTU0Li-Eem7M4w2QGGPcw" base_Element="_TCStwbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCTU07i-Eem7M4w2QGGPcw" base_Element="_TCTU0bi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCT74Li-Eem7M4w2QGGPcw" base_Element="_TCTU1Li-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCUi8Li-Eem7M4w2QGGPcw" base_Element="_TCT74bi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCUi87i-Eem7M4w2QGGPcw" base_Element="_TCUi8bi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCVKALi-Eem7M4w2QGGPcw" base_Element="_TCUi9Li-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCVxELi-Eem7M4w2QGGPcw" base_Element="_TCVKAbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCWYILi-Eem7M4w2QGGPcw" base_Element="_TCVxEbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCWYI7i-Eem7M4w2QGGPcw" base_Element="_TCWYIbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCW_MLi-Eem7M4w2QGGPcw" base_Element="_TCWYJLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCXmQLi-Eem7M4w2QGGPcw" base_Element="_TCW_Mbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCYNULi-Eem7M4w2QGGPcw" base_Element="_TCXmQbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCYNU7i-Eem7M4w2QGGPcw" base_Element="_TCYNUbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCY0YLi-Eem7M4w2QGGPcw" base_Element="_TCYNVLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCZbcLi-Eem7M4w2QGGPcw" base_Element="_TCY0Ybi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCZbc7i-Eem7M4w2QGGPcw" base_Element="_TCZbcbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCaCgLi-Eem7M4w2QGGPcw" base_Element="_TCZbdLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCapkLi-Eem7M4w2QGGPcw" base_Element="_TCaCgbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCapk7i-Eem7M4w2QGGPcw" base_Element="_TCapkbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCbQoLi-Eem7M4w2QGGPcw" base_Element="_TCaplLi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCb3sLi-Eem7M4w2QGGPcw" base_Element="_TCbQobi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCcewLi-Eem7M4w2QGGPcw" base_Element="_TCb3sbi-Eem7M4w2QGGPcw"/>
+  <UMLLabProfile:Reference xmi:id="_TCcew7i-Eem7M4w2QGGPcw" base_Element="_TCcewbi-Eem7M4w2QGGPcw"/>
+</xmi:XMI>
